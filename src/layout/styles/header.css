@@ -1,0 +1,189 @@
+.__header {
+    position: sticky;
+    z-index: 5;
+    top: 0;
+    width: 100%;
+    height: 70px;
+}
+
+.__header .__box_h {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.__header .__box_h .__a_logo h1 {
+    font-size: 1.8rem;
+}
+
+.__header .__box_h .__navbar {
+    display: none;
+}
+
+.__header .__box_h .__navbar_right {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.__header .__box_h .__navbar_right .__li_search a {
+    display: grid;
+    width: 40px;
+    height: 40px;
+    place-items: center;
+    border-radius: 100px;
+    background-color: #F2F5F0;
+}
+
+.__header .__box_h .__navbar_right .__li_search a .tabler-icon {
+    width: 18px;
+    height: 18px;
+}
+
+.__header .__box_h .__navbar_right .__li_stations {
+    display: none;
+}
+
+.__header .__box_h .__navbar_right .__li_menu button {
+    height: 40px;
+    padding: 0 1rem;
+    border-radius: 100px;
+    background-color: #F2F5F0;
+}
+
+.__nav {
+    position: absolute;
+    left: -100dvw;
+    top: 70px;
+    z-index: 1001;
+    width: 100dvw;
+    padding: 1rem 0;
+    transition: .4s ease all;
+    height: calc(100dvh - 70px);
+    background-color: var(--color-white);
+}
+
+.__nav--active {
+    left: 0;
+    transition: .4s ease all;
+}
+
+.__nav .__nav_list {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.__nav .__nav_list .__nav_item {
+    width: 100%;
+}
+
+.__nav .__nav_list  .__nav_item .__nav_link {
+    display: flex;
+    font-weight: 700;
+    font-size: 1.75rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.__nav .__line {
+    width: 90%;
+    margin: 2rem auto;
+    height: 2px;
+    background-color: #F2F5F0;
+}
+
+.__nav .__redes {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.__nav .__redes .__redes_item .__redes_link {
+    display: grid;
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    place-items: center;
+    border-radius: 100px;
+    background-color: #F2F5F0;
+}
+
+.__nav .__redes .__redes_item .__redes_link .tabler-icon {
+    stroke-width: 1.5;
+}
+
+
+@media (min-width: 768px) {
+
+    .__header .__box_h .__a_logo h1 {
+        font-size: 2rem;
+    }
+
+    .__header .__box_h .__navbar_right .__li_stations {
+        display: flex;
+        gap: .8rem;
+    }
+
+    .__header .__box_h .__navbar_right .__li_stations .__btn_station {
+        position: relative;
+        display: grid;
+        width: 40px;
+        height: 40px;
+        place-items: center;
+        border-radius: 100px;
+        background-color: #F2F5F0;
+    }
+
+    .__header .__box_h .__navbar_right .__li_stations .__btn_station span {
+        position: absolute;
+        bottom: -20px;
+        display: none;
+        font-size: .8rem;
+        padding: .2rem .4rem;
+        border-radius: .4rem;
+        color: var(--color-white);
+        background-color: rgb(0, 0, 0);
+    }
+
+    .__header .__box_h .__navbar_right .__li_stations .__btn_station:hover span {
+        display: block;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .__header .__box_h .__a_logo h1 {
+        font-size: 2.5rem;
+    }
+
+    .__header .__box_h .__navbar {
+        display: block;
+        height: inherit;
+    }
+
+    .__header .__box_h .__navbar .__navbar_list {
+        height: inherit;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .__header .__box_h .__navbar .__navbar_list .__navbar_item .__navbar_link {
+        display: block;
+        padding: .5rem 1rem;
+    }
+
+    .__header .__box_h .__navbar_right .__li_stations {
+        gap: .4rem;
+    }
+
+}
