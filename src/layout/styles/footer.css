@@ -1,0 +1,62 @@
+.__footer {
+    width: 100%;
+}
+
+.__footer .__box_footer {
+    width: 100%;
+}
+
+.__footer .__box_footer .__row_footer {
+    width: 100%;
+}
+
+.__footer .__box_footer .__row_footer_A {
+    padding: 2rem 0;
+}
+
+.__footer .__box_footer .__row_footer_A .__content_row_A {
+    width: 90%;
+    margin: auto;
+}
+
+.__footer .__box_footer .__row_footer_A .__content_row_A h3 {
+    margin-bottom: .5rem;
+}
+
+.__footer .__box_footer .__row_footer_A .__content_row_A p {
+    font-size: .8rem;
+    margin-bottom: .5rem;
+    color: var(--color-gray);
+}
+
+.__footer .__box_footer .__row_footer_A .__content_row_A .__form {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+    flex-direction: column;
+}
+
+.__footer .__box_footer .__row_footer_A .__content_row_A .__form .__form_group {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+    flex-direction: column;
+}
+
+.__footer .__box_footer .__row_footer_A .__content_row_A .__form .__form_group .__form_control {
+    width: 100%;
+}
+
+.__footer .__box_footer .__row_footer_A .__content_row_A .__form .__form_group .__form_control .__form_entry {
+    width: 100%;
+    height: 50px;
+    font-size: .9rem;
+    border-bottom: 2px solid var(--color-gray);
+}
+
+.__footer .__box_footer .__row_footer_B {
+    color: var(--color-white);
+    background-color: var(--color-dark);
+}

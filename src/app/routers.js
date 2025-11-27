@@ -10,6 +10,9 @@ export const router = createBrowserRouter([
             {
                 index: true,
                 element: <HomePage/>
+            },
+            {
+                path: '/search'
             }
         ]
     }

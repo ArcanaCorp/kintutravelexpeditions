@@ -1,0 +1,49 @@
+.__btn_icon {
+    position: relative;
+    display: flex;
+    background: none;
+    gap: .5rem;
+    overflow: hidden;
+    align-items: center;
+    padding: .8rem 1rem;
+    border-radius: 100px;
+    border: 2px solid var(--color-dark);
+}
+
+.__btn_icon .tabler-icon {  
+    width: 28px;
+    height: 28px;
+    stroke: #A7CF3A;
+    stroke-width: 2;
+}
+
+/* CÍRCULO DETRÁS DEL ICONO */
+.__btn_icon::after {
+    content: "";
+    position: absolute;
+    right: 1.8rem;        /* se coloca detrás del icono */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;         /* tamaño del círculo */
+    height: 18px;
+    border-radius: 50%;
+    background: #cedc00;
+    z-index: -1;          /* detrás */
+    pointer-events: none;
+    transition: transform .25s ease, opacity .25s ease;
+}
+
+/* asegurar texto + icono por encima */
+.__btn_icon > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* hover premium */
+.__btn_icon:hover .tabler-icon {
+    stroke: var(--color-white);
+}
+.__btn_icon:hover::after {
+    transform: translateY(-50%) scale(100);
+    opacity: .95;
+}

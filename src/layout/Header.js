@@ -5,6 +5,16 @@ export default function Header () {
 
     const [ open, setOpen ] = useState(false);
 
+    const handleToogleNav = () => {
+        const body = document.body;
+        if (!open) {
+            body.style.overflowY = 'hidden';
+        } else {
+            body.style.overflowY = 'auto';
+        }
+        setOpen(!open);
+    }
+
     return (
 
         <>
@@ -32,7 +42,7 @@ export default function Header () {
                             <button className={`__btn_station`}><IconSnowflake/><span>Invierno</span></button>
                         </li>
                         <li className='__li __li_menu'>
-                            <button onClick={() => setOpen(!open)}>{open ? 'Cerrar' : 'Menu'}</button>
+                            <button onClick={handleToogleNav}>{open ? 'Cerrar' : 'Menu'}</button>
                         </li>
                     </ul>
                 </div>
