@@ -20,6 +20,10 @@
     font-size: 1.8rem;
 }
 
+.__header .__box_h .__a_logo .__logo_img {
+    height: 40px;
+}
+
 .__header .__box_h .__navbar {
     display: none;
 }
@@ -166,6 +170,11 @@
         font-size: 2.5rem;
     }
 
+    .__header .__box_h .__a_logo .__logo_img {
+        width: auto;
+        height: 50px;
+    }
+
     .__header .__box_h .__navbar {
         display: block;
         height: inherit;
@@ -180,11 +189,25 @@
 
     .__header .__box_h .__navbar .__navbar_list .__navbar_item .__navbar_link {
         display: block;
+        text-wrap: nowrap;
+        font-size: .8rem;
         padding: .5rem 1rem;
     }
 
     .__header .__box_h .__navbar_right .__li_stations {
-        gap: .4rem;
+        display: none;
     }
 
 }
+
+@media (min-width: 1440px) {
+
+    .__header .__box_h .__navbar .__navbar_list .__navbar_item .__navbar_link {
+        font-size: 1rem;
+    }
+
+    .__header .__box_h .__navbar_right .__li_stations {
+        display: flex;
+        gap: .5rem;
+    }
+} 

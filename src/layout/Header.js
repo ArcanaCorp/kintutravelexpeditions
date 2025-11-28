@@ -1,6 +1,7 @@
-import { IconFlower, IconSearch, IconLeaf, IconSnowflake, IconSun, IconChevronRight, IconBrandFacebook, IconBrandInstagram, IconBrandTiktok, IconBrandWhatsapp } from '@tabler/icons-react'
-import './styles/header.css'
 import { useState } from 'react'
+import { IconFlower, IconSearch, IconLeaf, IconSnowflake, IconSun, IconChevronRight, IconBrandFacebook, IconBrandInstagram, IconBrandTiktok, IconBrandWhatsapp } from '@tabler/icons-react'
+import logo from '@/shared/img/logo.png'
+import './styles/header.css'
 export default function Header () {
 
     const [ open, setOpen ] = useState(false);
@@ -22,7 +23,7 @@ export default function Header () {
             <header className="__header">
                 <div className='__box_h'>
                     <a href='/' className='__a __a_logo'>
-                        <h1>Kintu Travel</h1>
+                        <img src={logo} className='__logo_img' alt='Logo - Kintu' fetchPriority='high' />
                     </a>
                     <nav className='__navbar'>
                         <ul className='__navbar_list'>

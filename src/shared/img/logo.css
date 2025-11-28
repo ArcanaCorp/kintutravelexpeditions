@@ -1,0 +1,5 @@
+@charset "UTF-8";
+@font-face { font-family:"Branding";font-variant:normal;font-weight:500;src:url("#FontID0") format(svg)}
+.fil1 {fill:black}
+.fil0 {fill:black;fill-rule:nonzero}
+.fnt0 {font-weight:500;font-size:747.45px;font-family:'Branding'}
