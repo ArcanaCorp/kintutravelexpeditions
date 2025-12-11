@@ -2,7 +2,23 @@
     --color-white: #FFFFFF;
     --color-dark: #181818;
     --color-gray: #6E6E6E;
+    --color-primary: #4F46E5;
+
+    --color-n8-80: rgba(0,0,0,0.8);
+    --color-n0-10: rgba(0,0,0,0.1);
+
+    --fw-bold: 700;
+
+    --radius-pill: 999px;
+
     --font-family: "Geologica", sans-serif;
+
+    --transition-speed-1: 0.15s;
+    --transition-speed-2: 0.3s;
+    --transition-easing: cubic-bezier(0.2, 0, 1, 1);
+    --transition: var(--transition-1);
+    --transition-1: var(--transition-speed-1) var(--transition-easing);
+    --transition-2: var(--transition-speed-2) var(--transition-easing);
 }
 
 * {

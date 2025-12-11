@@ -1,5 +1,4 @@
 import cloud from '@/shared/img/cloud-1.webp'
-import arrowRight from '@/shared/icons/arrow-right.svg'
 import './styles/hero.css'
 export default function Hero () {
 
@@ -26,7 +25,11 @@ export default function Hero () {
                     <p>Aventura</p>
                 </h1>
 
-                <a href='/' data-aos="fade-up" className='__a_link __a_link_btn __a_link_btn_action'>Crea tu viaje ideal <img className='tabler-icon' src={arrowRight} alt='Arrow'/> </a>
+                <a href='/' data-aos="fade-up" className='__a_link __a_link_btn __a_link_btn_action'>
+                    Crea tu viaje ideal
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="12" fill="none" viewBox="0 0 24 12" class="Arrow_arrow__7WGgS"><path fill="currentColor" d="M0 5.113h20.644L17.577 2.04 18.804.804 24 6l-5.196 5.196-1.227-1.235 3.067-3.074H0z"></path></svg>
+                    <span className='--arrow-right'></span>
+                </a>
 
                 <ul className='__list_trips' data-aos="fade-up">
                     <li className='__item_trip'>

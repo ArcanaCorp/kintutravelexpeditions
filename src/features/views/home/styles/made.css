@@ -1,0 +1,59 @@
+.__section_made {
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.__section_made .__box_section {
+    width: 100%;
+}
+
+.__section_made .__box_section .__titler {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-bottom: 1.5rem;
+}
+
+.__section_made .__box_section .__text {
+    width: 90%;
+    margin: 0 auto 2rem auto;
+    font-size: 500;
+    line-height: 28px;
+    text-align: center;
+}
+
+.__section_made .__box_section .__read {
+    width: 100%;
+    text-align: center;
+}
+
+.__section_made .__box_section .__read .__btn_read {
+    position: relative;
+    display: inline-flex;
+    gap: .5rem;
+    overflow: hidden;
+    padding: .6rem 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-pill);
+    border: 2px solid var(--color-dark);
+}
+
+.__section_made .__box_section .__read .__btn_read .--arrow-right {
+    position: absolute;
+    right: 10px;
+    z-index: -1;
+    width: 20px;
+    height: 20px;
+    transition: all .3s ease;
+    background-color: #cedc00;
+    border-radius: var(--radius-pill);
+}
+
+.__section_made .__box_section .__read .__btn_read:hover .--arrow-right {
+    right: 0;
+    width: 400px;
+    height: 400px;
+}

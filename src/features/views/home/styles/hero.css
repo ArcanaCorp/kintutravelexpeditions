@@ -62,48 +62,26 @@
     align-items: center;
     padding: .8rem 2rem;
     border-radius: 100px;
+    transition: all 0.3s ease;
     background-color: var(--color-white);
     box-shadow: 0px 4px 8px 0px rgb(158 158 158 / 20%);
 }
 
-.__section_hero .__box_section .__a_link_btn_action .tabler-icon {
-    width: 28px;
-    height: 28px;
-    stroke: #A7CF3A;
-    stroke-width: 2;
-}
-
-/* CÍRCULO DETRÁS DEL ICONO */
-.__section_hero .__box_section .__a_link_btn_action::after {
-    content: "";
+.__section_hero .__box_section .__a_link_btn_action .--arrow-right {
     position: absolute;
-    right: 1.8rem;        /* se coloca detrás del icono */
-    top: 50%;
-    transform: translateY(-50%);
-    width: 18px;         /* tamaño del círculo */
-    height: 18px;
-    border-radius: 50%;
-    background: #cedc00;
-    z-index: -1;          /* detrás */
-    pointer-events: none;
-    transition: transform .25s ease, opacity .25s ease;
+    display: block;
+    z-index: -1;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+    background-color: #cedc00;
+    border-radius: var(--radius-pill);
 }
 
-/* asegurar texto + icono por encima */
-.__section_hero .__box_section .__a_link_btn_action > * {
-    position: relative;
-    z-index: 2;
+.__section_hero .__box_section .__a_link_btn_action:hover .--arrow-right {
+    right: 0;
+    scale: 100;
 }
-
-/* hover premium */
-.__section_hero .__box_section .__a_link_btn_action:hover .tabler-icon {
-    stroke: var(--color-white);
-}
-.__section_hero .__box_section .__a_link_btn_action:hover::after {
-    transform: translateY(-50%) scale(100);
-    opacity: .95;
-}
-
 
 .__section_hero .__box_section .__list_trips {
     width: 100%;
