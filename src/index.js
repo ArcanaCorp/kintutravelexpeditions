@@ -4,6 +4,7 @@ import Providers from "./app/providers";
 import { router } from "./app/routers";
 
 import '@/shared/css/global.css'
+import '@/shared/css/system.css'
 
 createRoot(document.getElementById('root')).render (
     <>

@@ -69,6 +69,7 @@
     width: 215px;
     height: 312px;
     min-width: 215px;
+    cursor: pointer;
     border-radius: .25rem;
     z-index: 0;
     overflow: hidden;
@@ -78,6 +79,42 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.__section_experience .__box_section .__items .__item .--mask {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease;
+}
+
+.__section_experience .__box_section .__items .__item .--mask .--read {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: grid;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    text-wrap: nowrap;
+    border-radius: 50%;
+    place-items: center;
+    color: var(--color-dark);
+    transition: all .3s ease;
+    background-color: #cedc00;
+}
+
+.__section_experience .__box_section .__items .__item:hover .--mask {
+    background-color: rgb(255 255 255 / .2);
+    backdrop-filter: blur(10px);
+}
+
+.__section_experience .__box_section .__items .__item .--mask:hover .--read {
+    width: 100px;
+    height: 100px;
 }
 
 .__section_experience .__box_section .__items .__item .__banner_img {
@@ -166,4 +203,39 @@
     right: 0;
     width: 200px;
     height: 200px;
+}
+
+
+@media (min-width: 1440px) {
+
+    .__section_experience .__box_section .__titler {
+        width: 70%;
+        font-size: 3rem;
+    }
+
+    .__section_experience .__box_section .__btn_navigations  {
+        width: 70%;
+    }
+
+    .__section_experience .__box_section .__items {
+        padding-left: 15%;
+        padding-right: 4rem;
+    }
+
+    .__section_experience .__box_section .__items .__item {
+        width: 330px;
+        height: 480px;
+        min-width: 330px;
+        border-radius: 20px;
+    }
+
+    .__section_experience .__box_section .__items .__item .__item_content .__item_title .__item_title_link {
+        font-size: 1.8rem;
+    }
+
+    .__section_experience .__box_section .__row_flex {
+        width: 70%;
+        margin: 3rem auto;
+    }
+
 }

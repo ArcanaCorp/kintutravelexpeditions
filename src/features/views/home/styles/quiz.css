@@ -1,0 +1,51 @@
+.__gifts {
+    height: 400px;
+}
+
+.__gifts .__gift {
+    width: 250px;
+    height: 150px;
+}
+
+.__gifts .__gift:nth-child(1) {
+    top: 20px;
+    left: 10px;
+    transform: rotate(350deg);
+}
+
+.__gifts .__gift:nth-child(2) {
+    transform: rotate(-350deg);
+    top: 125px;
+    right: 10px;
+}
+
+.__gifts .__gift:nth-child(3) {
+    transform: rotate(355deg);
+    bottom: 10px;
+    left: 10px;
+}
+
+@media (min-width: 768px) {
+    .__box-quiz {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+    
+    .__gifts {
+        width: 100%;
+    }
+    .__gifts .__gift:nth-child(1) {
+        top: 20px;
+        left: 100px;
+    }
+
+    .__gifts .__gift:nth-child(2) {
+        top: 125px;
+        right: 100px;
+    }
+
+    .__gifts .__gift:nth-child(3) {
+        bottom: 10px;
+        left: 100px;
+    }
+}

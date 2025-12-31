@@ -1,17 +1,63 @@
 :root {
+    
+    /* Base */
     --color-white: #FFFFFF;
     --color-dark: #181818;
     --color-gray: #6E6E6E;
     --color-primary: #4F46E5;
 
+    /* Neutrales */
+    --color-n9: #0A0A0A;
+    --color-n8: #181818;
+    --color-n6: #6E6E6E;
+    --color-n3: #E5E5E5;
+    --color-n1: #F7F7F7;
+
+    /* Estados */
+    --color-success: #16A34A;
+    --color-warning: #F59E0B;
+    --color-danger: #DC2626;
+
+    /* Transparencias */
     --color-n8-80: rgba(0,0,0,0.8);
     --color-n0-10: rgba(0,0,0,0.1);
 
-    --fw-bold: 700;
+    --font-family: "Geom", sans-serif;
+    --fs-xs: 0.75rem;
+    --fs-sm: 0.875rem;
+    --fs-md: 1rem;
+    --fs-lg: 1.125rem;
+    --fs-xl: 1.25rem;
+    --fs-2xl: 1.5rem;
+    --fs-3xl: 2rem;
+    --fs-4xl: 2.5rem;
+    --fs-5xl: 3rem;
+    --fs-6xl: 6rem;
+    --fs-7xl: 7rem;
+    --fs-8xl: 8rem;
 
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --fw-bolder: 900;
+
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+
+    --radius-xs: 2px;
+    --radius-sm: 4px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
     --radius-pill: 999px;
 
-    --font-family: "Geologica", sans-serif;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
 
     --transition-speed-1: 0.15s;
     --transition-speed-2: 0.3s;
@@ -19,6 +65,12 @@
     --transition: var(--transition-1);
     --transition-1: var(--transition-speed-1) var(--transition-easing);
     --transition-2: var(--transition-speed-2) var(--transition-easing);
+
+    --bp-sm: 640px;   /* mobile landscape */
+    --bp-md: 768px;   /* tablet */
+    --bp-lg: 1024px;  /* desktop */
+    --bp-xl: 1280px;
+
 }
 
 * {
@@ -41,6 +93,10 @@ body {
     overflow-y: auto;
     overflow-x: hidden;
     background-color: #FFFFFF;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 input, select, textarea {
