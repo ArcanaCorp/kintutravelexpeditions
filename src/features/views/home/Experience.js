@@ -1,21 +1,29 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { content } from '@/config';
+import ButtonLink from '@/features/components/Button/ButtonLink'
 import './styles/experience.css'
-import ButtonLink from '../../components/Button/ButtonLink'
+import { slugify } from '@/helpers/slugify';
 export default function Experience () {
 
-    const [ navigate, setNavigate ] = useState('thingsToDo')
+    const [ experiences, setExperiences ] = useState([]);
 
-    const thingsToDo = [
-        {id: 1, title: 'Explora la ciudad', category: 'Walking Tour', icon: 'map-search'},
-        {id: 2, title: 'Gastronomía local', category: 'Foodies Tour', icon: 'food-bowl'},
-        {id: 3, title: 'Aventuras al aire libre', category: 'Traking', icon: 'mountain-sun'},
-    ]
+    const shuffleArray = (array) => {
+        const shuffled = [...array];
 
-    const tripideas = [
-        {id: 1, title: 'Escapada de fin de semana', category: 'Party Tour', icon: 'building-cottage'},
-        {id: 2, title: 'Ruta gastronómica', category: 'Foodies Route', icon: 'chef-hat'},
-        {id: 3, title: 'Aventura en la naturaleza', category: 'Traking', icon: 'tree-pine'},
-    ]
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+
+        return shuffled;
+    };
+
+    useEffect(() => {
+        if (content?.experiences?.length) {
+            const randomFive = shuffleArray(content.experiences).slice(0, 5);
+            setExperiences(randomFive);
+        }
+    }, []);
 
     return (
 
@@ -27,45 +35,23 @@ export default function Experience () {
                     <h2 className='__title_section'>Experiencia con Kintu</h2>
                 </div>
 
-                <div className='__btn_navigations'>
-                    <button className={`__btn ${navigate === 'thingsToDo' ? 'active' : ''}`} onClick={() => setNavigate('thingsToDo')}>Cosas que hacer</button>
-                    <button className={`__btn ${navigate === 'tripideas' ? 'active' : ''}`} onClick={() => setNavigate('tripideas')}>Ideas de viajes</button>
-                </div>
-
                 <ul className='__items'>
-                    {navigate === 'thingsToDo' && (
-                        thingsToDo.map(item => (
-                            <li key={item.id} className='__item __item_card __item_experience' data-aos="fade-left">
-                                <div className='--mask'>
-                                    <p className='--read'>Leer más</p>
+                    {experiences.map(item => (
+                        <li key={item.id} className='__item __item_card __item_experience' title={`Foto de referencial de la experiencia ${item.experienceName} en el tour ${item.tourName} con ${content.companyInfo.brandName}`} data-aos="fade-left">
+                            <div className='--mask'>
+                                <p className='--read' aria-label='Leer más'>Leer más</p>
+                            </div>
+                            <img className='__banner_img' src={`/images/${item.id}/cover.jpg`} alt={`Foto de referencial de la experiencia ${item.experienceName} en el tour ${item.tourName} con ${content.companyInfo.brandName}`} fetchPriority='high' decoding='async' loading='lazy' />
+                            <div className='__item_content'>
+                                <div className='__item_title'>
+                                    <a href={`/experiences/${slugify(item.tourName)}`} aria-label={`Ir a la experiencia ${item.experienceName} en el tour ${item.tourName} con ${content.companyInfo.brandName}`} className='__item_title_link'>{item.tourName}</a>
                                 </div>
-                                <img className='__banner_img' src='https://cdn.sanity.io/images/b6qabne3/production/37a9cc3625eea8b08ca6ff7ce02190d5aaa8a428-2000x1500.jpg?rect=684,0,1051,1500&w=480&h=685&q=75&fit=clip&auto=format' alt='Una imagen de un lugare turístico' fetchPriority='high' decoding='async' loading='lazy' />
-                                <div className='__item_content'>
-                                    <div className='__item_title'>
-                                        <a href='/' className='__item_title_link'>{item.title}</a>
-                                    </div>
-                                    <div className='__item_txt'>
-                                        <p>{item.category}</p>
-                                    </div>
+                                <div className='__item_txt'>
+                                    <p>{item.experienceName}</p>
                                 </div>
-                            </li>
-                        ))
-                    )}
-                    {navigate === 'tripideas' && ( 
-                        tripideas.map(item => (
-                            <li key={item.id} className='__item __item_card __item_experience' data-aos="fade-left">
-                                <img className='__banner_img' src='https://cdn.sanity.io/images/b6qabne3/production/37a9cc3625eea8b08ca6ff7ce02190d5aaa8a428-2000x1500.jpg?rect=684,0,1051,1500&w=480&h=685&q=75&fit=clip&auto=format' alt='Una imagen de un acciones turisticas' fetchPriority='high' decoding='async' loading='lazy' />
-                                <div className='__item_content'>
-                                    <div className='__item_title'>
-                                        <a href='/' className='__item_title_link'>{item.title}</a>
-                                    </div>
-                                    <div className='__item_txt'>
-                                        <p>{item.category}</p>
-                                    </div>
-                                </div>
-                            </li>
-                        ))
-                    )}
+                            </div>
+                        </li>
+                    ))}
                 </ul>
 
                 <div className='__row_flex'>

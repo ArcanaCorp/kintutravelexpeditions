@@ -1,12 +1,17 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import hero from '@/shared/img/hero.jpg'
+import { content } from '@/config';
+import { Link } from "react-router-dom";
+import { slugify } from '@/helpers/slugify';
 import { IconSparkles } from "@tabler/icons-react";
 import { useTypewriter } from "../../components/text/TextWriting";
 import './styles/hero.css'
-import { Link } from "react-router-dom";
 export default function Hero () {
 
+    const [ cards, setCards ] = useState([])
     const [ hasTyped, setHasTyped ] = useState(false);
-    const questions = ['¿Mejor fecha para conocer Jauja?', '¿Tienen paquetes para la Tunantada 2026?']
+
+    const questions = ['¿Mejor fecha para conocer Jauja?', '¿Tienen paquetes para la Tunantada 2026?', '¿Es seguro viajar con Kintu Travel Expeditions?, ¿Por qué viajar con Kintu Travel Expeditions?']
     const animatedText = useTypewriter(questions, !hasTyped);
 
     const handleInput = (e) => {
@@ -14,24 +19,23 @@ export default function Hero () {
         value.length > 0 ? setHasTyped(true) : setHasTyped(false)
     };
 
-    const cards = [
-        {
-            id: 1,
-            title: 'Su guia para las mejores rutas'
-        },
-        {
-            id: 2,
-            title: 'Lugares favoritos para 2'
-        },
-        {
-            id: 3,
-            title: 'Traking por la historia'
-        },
-        {
-            id: 4,
-            title: 'Lo mejor de lo mejor'
+    const shuffleArray = (array) => {
+        const shuffled = [...array];
+
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
-    ]
+
+        return shuffled;
+    };
+
+    useEffect(() => {
+        if (content?.experiences?.length) {
+            const randomFive = shuffleArray(content.experiences).slice(0, 4);
+            setCards(randomFive);
+        }
+    }, [])
 
     return (
 
@@ -42,13 +46,13 @@ export default function Hero () {
                 <picture className='__img_banner_home'>
                     <source
                         media="(min-width: 1024px)"
-                        srcSet="https://cdn.sanity.io/images/b6qabne3/production/9a0898d17d05fedb06700f7bd7214bef16a62aa7-2904x1267.jpg?rect=563,232,2341,1024&w=1280&h=560&q=75&fit=clip&auto=format"
+                        srcSet={hero}
                     />
                     <source
                         media="(min-width: 640px)"
-                        srcSet="https://cdn.sanity.io/images/b6qabne3/production/9a0898d17d05fedb06700f7bd7214bef16a62aa7-2904x1267.jpg?rect=563,232,2341,1024&w=1280&h=560&q=75&fit=clip&auto=format"
+                        srcSet={hero}
                     />
-                    <img src='https://cdn.sanity.io/images/b6qabne3/production/9a0898d17d05fedb06700f7bd7214bef16a62aa7-2904x1267.jpg?rect=718,131,757,1136&w=640&h=960&q=75&fit=clip&auto=format' alt='Imagen' />
+                    <img src={hero} alt='Imagen' />
                 </picture>
 
                 <div className='__home_page_hero text-center flex flex-col gap-4'>
@@ -74,9 +78,11 @@ export default function Hero () {
                 <ul className="__items grid m-auto gap-2">
                     {cards.map((c) => (
                         <li key={c.id} className="__item w-full" data-aos="fade-up">
-                            <Link to={'/'} className="__item_link flex flex-col gap-2">
-                                <div className="__item_bg bg-secondary rounded-md"></div>
-                                <h4 className="text-xs">{c.title}</h4>
+                            <Link to={`/experiences/${slugify(c.tourName)}`} className="__item_link flex flex-col gap-2">
+                                <div className="__item_bg bg-secondary rounded-md">
+                                    <img src={`/images/${c.id}/cover.jpg`}  alt={`Foto de referencial de la experiencia ${c.experienceName} en el tour ${c.tourName} con ${content.companyInfo.brandName}`} fetchPriority='high' decoding='async' loading='lazy'/>
+                                </div>
+                                <h4 className="text-xs">{c.tourName}</h4>
                             </Link>
                         </li>
                     ))}

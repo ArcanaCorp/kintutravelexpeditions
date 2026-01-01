@@ -128,6 +128,7 @@
 
 @media (min-width: 768px) {
     .md\:w-full { width: 100%; }
+    .md\:w-90 { width: 90%; }
     .md\:flex-row { flex-direction: row; }
     .md\:flex-col { flex-direction: column; }
 

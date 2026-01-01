@@ -2,6 +2,7 @@ import ButtonIcon from '@/features/components/Button/ButtonIcon'
 import logoreverse from '@/shared/img/logo-reverse.png'
 import './styles/footer.css'
 import { IconBrandFacebookFilled, IconBrandInstagramFilled, IconBrandTiktokFilled, IconBrandXFilled, IconBrandYoutubeFilled } from '@tabler/icons-react'
+import { content } from '../config';
 
 export default function Footer () {
 
@@ -81,7 +82,7 @@ export default function Footer () {
                             </ul>
                         </div>
                         <div className='__colB'>
-                            <p>© {year} Kintu Travel Expeditions. Todos los derechos reservados</p>
+                            <p>© {year} {content.companyInfo.legalName}. Todos los derechos reservados</p>
                         </div>
                     </div>
                 </div>

@@ -3,10 +3,6 @@
     padding: 2rem 0;
 }
 
-.__section_explore .__box_section {
-    width: 100%;
-}
-
 .__section_explore .__box_section .__titler {
     width: 90%;
     margin: auto;
@@ -106,7 +102,7 @@
     }
 
     .__section_explore .__box_section .__blogs .__blog_item:nth-child(1) .__blog_text {
-        width: 60%;
+        width: max-content;
         border-top-right-radius: var(--radius-md);
     }
 

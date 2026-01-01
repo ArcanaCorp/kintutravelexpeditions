@@ -1,0 +1,700 @@
+{
+    "en": {
+        "companyInfo": {
+            "legalName": "Peruvian Company for Innovation and Development S.A.C.",
+            "brandName": "Kintu Travel Expeditions",
+            "slogans": [
+                "The best journey to your inner self. Start returning to who you are.",
+                "Reconnect with yourself and your best travel experience.",
+                "Dare to live your best experience and reconnect with your inner self; your body and health will thank you."
+            ],
+            "description": "Kintu Travel Expeditions is not a conventional travel agency. We aim to be agents of change by creating healthier and happier lives through five-sense experiences in direct contact with nature, strengthening physical health and emotional well-being. Each journey is an investment in personal transformation.",
+            "mission": "To design and lead five-sense travel experiences focused on physical and emotional well-being, transcending traditional travel and enabling deep personal transformation with excellence and responsibility.",
+            "vision": "To become the national pioneering and leading brand in psychotherapeutic tourism, recognized for transforming unconventional experiences into symbols of health, happiness, and sustainable living.",
+            "values": [
+                "Innovation",
+                "Quality",
+                "Integrity",
+                "Respect",
+                "Cultural identity",
+                "Environmental care",
+                "Social responsibility"
+            ],
+            "address": {
+                "street": "Jr. Jauja N° 729",
+                "city": "Jauja",
+                "province": "Jauja",
+                "region": "Junín",
+                "country": "Peru"
+            },
+            "contact": {
+                "phone": "993507707",
+                "email": "kintutravelexpeditions@gmail.com"
+            },
+            "socialMedia": {
+                "facebook": "https://www.facebook.com/kintutravelexpeditions",
+                "tiktok": "https://www.tiktok.com/@kintu_travel",
+                "instagram": "https://www.instagram.com/kintutravelexpeditions",
+                "youtube": "https://www.youtube.com/@kintutravelexpeditions"
+            },
+            "mediaAssets": {
+                "downloadLink": "https://we.tl/t-ozTfJDrUP9"
+            }
+        },
+        "experiences": [
+            {
+                "id": "EXP-1",
+                "experienceName": "Reconnection",
+                "tourName": "RECONEXIÓN – Five Sense Experiences",
+                "destinations": [
+                    "Nor Yauyos Cochas Landscape Reserve",
+                    "Selva Central",
+                    "Mantaro Valley"
+                ],
+                "duration": "Full Day / Multiple Days",
+                "priceRangePerPerson": {
+                    "min": 90,
+                    "max": 350,
+                    "currency": "PEN"
+                },
+                "activities": [
+                    "Nature immersion",
+                    "Psychotherapeutic field activities",
+                    "Relaxation techniques",
+                    "Meditation and psychoeducation",
+                    "Five-sense stimulation",
+                    "Grounding techniques",
+                    "Energy release",
+                    "Andean worldview integration",
+                    "Mentoring and coaching",
+                    "Vision Extra Ocular (VEO) methodology"
+                ],
+                "difficultyLevel": ["Easy", "Medium", "High"],
+                "availability": "All year, reservation required",
+                "mediaReference": "Drive folder EXP-1"
+            },
+            {
+                "id": "EXP-2",
+                "experienceName": "Shutjo Canyon",
+                "tourName": "Jauja Nature and Adventure",
+                "destinations": [
+                    "Paca Lagoon",
+                    "Shutjo Canyon",
+                    "Qorivinchos Archaeological Site",
+                    "Helenapuquio Sacred Spring",
+                    "Canchayllo Town",
+                    "Puya de Raimondi Forest – Pishtaq Hill"
+                ],
+                "duration": "Full Day (8 hours)",
+                "pricePerPerson": 65,
+                "currency": "PEN",
+                "activities": [
+                    "Light hiking",
+                    "Boat ride (optional)",
+                    "Flora and fauna observation",
+                    "Photography stops"
+                ],
+                "difficultyLevel": "Moderate",
+                "availability": "All year, daily departures (minimum 4 people)",
+                "mediaReference": "Drive – EXP-2"
+            },
+            {
+                "id": "EXP-3",
+                "experienceName": "Countryside, Waterfalls and Paca Lagoon",
+                "tourName": "Jauja Countryside and Waterfalls",
+                "destinations": [
+                    "Quero Waterfalls",
+                    "Molinos",
+                    "Rumichaca Colonial Arch",
+                    "Jauja Countryside",
+                    "Paca Lagoon Viewpoint"
+                ],
+                "duration": "Full Day (7 hours)",
+                "pricePerPerson": 55,
+                "currency": "PEN",
+                "activities": [
+                    "Landscape and nature observation",
+                    "Adventure activities (optional)",
+                    "Artisan ice cream tasting",
+                    "Photography stops"
+                ],
+                "difficultyLevel": "Easy",
+                "availability": "All year, daily departures (minimum 4 people)",
+                "mediaReference": "Drive – EXP-3"
+            },
+            {
+                "id": "EXP-4",
+                "experienceName": "Granadilla Route",
+                "tourName": "Jauja, A High Jungle Experience",
+                "destinations": [
+                    "Corazón Lagoon",
+                    "Coca Kintu ritual",
+                    "Paccha Curva Waterfall",
+                    "High jungle landscapes",
+                    "Granadilla crop fields",
+                    "Uchubamba thermal baths"
+                ],
+                "duration": "Full Day (12 hours)",
+                "pricePerPerson": 95,
+                "currency": "PEN",
+                "activities": [
+                    "Andean and jungle landscapes",
+                    "Flora observation",
+                    "Medicinal thermal baths",
+                    "Photography stops"
+                ],
+                "difficultyLevel": "Easy",
+                "availability": "All year, daily departures (minimum 6 people)",
+                "mediaReference": "Drive – EXP-4"
+            },
+            {
+                "id": "EXP-5",
+                "experienceName": "Classic Mantaro Valley",
+                "tourName": "Hatun Mayu, Majestic Mantaro Valley",
+                "destinations": [
+                    "Wanka Identity Park",
+                    "Cochas Chico",
+                    "Quichuay",
+                    "Intiwasi Restaurant",
+                    "Concepción City",
+                    "Ocopa Franciscan Convent",
+                    "Piedra Parada Viewpoint"
+                ],
+                "duration": "Full Day (8 hours)",
+                "pricePerPerson": 75,
+                "currency": "PEN",
+                "activities": [
+                    "Cultural city tour",
+                    "Local gastronomy experience",
+                    "Photography stops"
+                ],
+                "difficultyLevel": "Easy",
+                "availability": "All year, daily departures (minimum 4 people)",
+                "mediaReference": "Drive – EXP-5"
+            },
+            {
+                "id": "EXP-6",
+                "experienceName": "Huancayo, Cradle of the Wankas",
+                "tourName": "Huancayo Cultural Experience",
+                "destinations": [
+                    "Warivilca Archaeological Sanctuary",
+                    "Copón Colonial Church",
+                    "Cani Cruz Stone Cross",
+                    "Huamanhuata Viewpoint"
+                ],
+                "duration": "Full Day (8 hours)",
+                "pricePerPerson": 65,
+                "currency": "PEN",
+                "activities": [
+                    "Cultural and historical visits",
+                    "Landscape observation",
+                    "Photography stops"
+                ],
+                "difficultyLevel": "Easy",
+                "availability": "All year, daily departures (minimum 5 people)",
+                "mediaReference": "Drive – EXP-6"
+            },
+            {
+                "id": "EXP-7",
+                "experienceName": "Canipaco, Land of the Chunkus",
+                "tourName": "Ancestral Canipaco Valley",
+                "destinations": [
+                    "Canipaco Valley",
+                    "Cerro Gorila (Chuy Huala)",
+                    "Mikukuqucha Lagoon",
+                    "Yuncayllo Canyon",
+                    "Chongos Alto"
+                ],
+                "duration": "Full Day (10 hours)",
+                "pricePerPerson": 80,
+                "currency": "PEN",
+                "activities": [
+                    "Landscape observation",
+                    "Geological formations",
+                    "Native flora and fauna watching",
+                    "Photography stops"
+                ],
+                "difficultyLevel": "Medium",
+                "availability": "All year, daily departures (minimum 5 people)",
+                "mediaReference": "Drive – EXP-7"
+            },
+            {
+                "id": "EXP-8",
+                "experienceName": "Vilca and Huancaya",
+                "tourName": "Domains of the Apu Pariaqaqa",
+                "destinations": [
+                    "Vilca",
+                    "Huancaya",
+                    "Papacocha Lagoon",
+                    "Cantagallo Viewpoint",
+                    "Forest of Love",
+                    "Calicanto Bridge"
+                ],
+                "duration": "Full Day (16 hours – early morning departure)",
+                "pricePerPerson": 140,
+                "currency": "PEN",
+                "activities": [
+                    "High mountain landscapes",
+                    "Flora and fauna observation",
+                    "Nature reserve access",
+                    "Boat ride (optional)"
+                ],
+                "difficultyLevel": "Medium",
+                "availability": "All year, reservation required (minimum 6 people)",
+                "mediaReference": "Drive – EXP-8"
+            },
+            {
+                "id": "EXP-9",
+                "experienceName": "Moya and Vilca",
+                "tourName": "The Longest Turquoise River in Peru",
+                "destinations": [
+                    "Moya",
+                    "Stone Church",
+                    "Huachacora Wisdom Spring",
+                    "Ayhuicha thermal baths",
+                    "Warichaca Natural Bridge",
+                    "Turumanya Bridge"
+                ],
+                "duration": "Full Day (16 hours – early morning departure)",
+                "pricePerPerson": 95,
+                "currency": "PEN",
+                "activities": [
+                    "High mountain landscapes",
+                    "Medicinal thermal baths",
+                    "Flora and fauna observation",
+                    "Rafting (optional)"
+                ],
+                "difficultyLevel": "Medium",
+                "availability": "All year (recommended April to November)",
+                "mediaReference": "Drive – EXP-9"
+            },
+            {
+                "id": "EXP-10",
+                "experienceName": "Huayllay Stone Forest",
+                "tourName": "Huayllay, Walking Among Stone Giants",
+                "destinations": [
+                    "Junín Plains",
+                    "Huayllay",
+                    "Stone Forest",
+                    "La Calera Thermal Baths"
+                ],
+                "duration": "Full Day (16 hours – early morning departure)",
+                "pricePerPerson": 120,
+                "currency": "PEN",
+                "activities": [
+                    "High mountain landscapes",
+                    "Huayllay Protected Area access",
+                    "Thermal baths (optional)",
+                    "Photography stops"
+                ],
+                "difficultyLevel": "Medium",
+                "availability": "All year, reservation required (minimum 6 people)",
+                "mediaReference": "Drive – EXP-10"
+            }
+        ],
+        "forms": {
+            "contactForm": {
+                "enabled": true,
+                "fields": [
+                    "fullName",
+                    "phoneWhatsapp",
+                    "message",
+                    "tourInterest"
+                ]
+            },
+            "bookingForm": {
+                "enabled": true,
+                "fields": [
+                    "travelDate",
+                    "numberOfPeople",
+                    "packageType",
+                    "additionalComments",
+                    "paymentConfirmation"
+                ],
+                "paymentMethods": [
+                    "Yape",
+                    "Plin",
+                    "Bank Transfer",
+                    "Credit Card",
+                    "Payment Link"
+                ]
+            }
+        },
+        "policies": {
+            "reservationPolicy": {
+                "depositRequired": "Minimum 50% non-refundable deposit",
+                "fullPaymentDeadline": "1 day before departure (3 days for personalized or reconnection trips)"
+            },
+            "modificationPolicy": {
+                "noticeRequired": "48 hours in advance",
+                "subjectToAvailability": true
+            },
+            "cancellationPolicy": {
+                "refunds": "Refunds depend on costs already incurred",
+                "notification": "Written notice required"
+            }
+        },
+        "additionalContent": {
+            "blogEnabled": true,
+            "faq": [
+                {
+                    "question": "Is it safe to travel with Kintu Travel Expeditions?",
+                    "answer": "Yes. We are fully registered with SUNAT, SUNARP, and MINCETUR, and recognized as a 2025 Excellence Company in Junín."
+                },
+                {
+                    "question": "Why choose Kintu Travel Expeditions?",
+                    "answer": "We are a local company from Jauja with official tour guides, fair pricing, no hidden commissions, and support from the Chamber of Commerce of Jauja."
+                }
+            ]
+        }
+    },
+    "esp": {
+        "companyInfo": {
+            "legalName": "Compañía Peruana de Innovación y Desarrollo S.A.C.",
+            "brandName": "Kintu Travel Expeditions",
+            "slogans": [
+                "El mejor viaje a tu ser. Empieza a volver a ti.",
+                "Reconecta contigo mismo y con tu mejor experiencia de viaje.",
+                "Atrévete a vivir tu mejor experiencia y reconecta con tu interior, tu cuerpo y salud te lo agradecerán."
+            ],
+            "description": "Kintu Travel Expeditions no es una agencia de viajes convencional. Buscamos ser agentes de cambio construyendo un mundo más sano y feliz a través de experiencias de cinco sentidos en contacto con la naturaleza, fortaleciendo la salud física y el bienestar emocional. Cada viaje es una inversión en el ser.",
+            "mission": "Diseñar y liderar experiencias de viaje de cinco sentidos orientadas al bienestar físico y emocional, trascendiendo el concepto tradicional de viajar y facilitando una transformación personal profunda.",
+            "vision": "Ser la marca nacional pionera y líder en turismo psicoterapéutico, reconocida por convertir experiencias no convencionales en sinónimo de salud, felicidad y buen vivir.",
+            "values": [
+                "Innovación",
+                "Calidad",
+                "Integridad",
+                "Respeto",
+                "Identidad cultural",
+                "Cuidado del medio ambiente",
+                "Responsabilidad social"
+            ],
+            "address": {
+                "street": "Jr. Jauja N° 729",
+                "city": "Jauja",
+                "province": "Jauja",
+                "region": "Junín",
+                "country": "Perú"
+            },
+            "contact": {
+                "phone": "993507707",
+                "email": "kintutravelexpeditions@gmail.com"
+            },
+            "socialMedia": {
+                "facebook": "https://www.facebook.com/kintutravelexpeditions",
+                "tiktok": "https://www.tiktok.com/@kintu_travel",
+                "instagram": "https://www.instagram.com/kintutravelexpeditions",
+                "youtube": "https://www.youtube.com/@kintutravelexpeditions"
+            },
+            "mediaAssets": {
+                "downloadLink": "https://we.tl/t-ozTfJDrUP9"
+            }
+        },
+        "experiences": [
+            {
+                "id": "EXP-1",
+                "experienceName": "Reconexión",
+                "tourName": "RECONEXIÓN – Experiencias de 5 sentidos",
+                "destinations": [
+                    "Reserva Paisajística Nor Yauyos Cochas",
+                    "Selva Central",
+                    "Valle del Mantaro"
+                ],
+                "duration": "Full Day / Varios días",
+                "priceRangePerPerson": {
+                    "min": 90,
+                    "max": 350,
+                    "currency": "PEN"
+                },
+                "activities": [
+                    "Contacto con la naturaleza",
+                    "Actividades psicoterapéuticas en campo",
+                    "Técnicas de relajación",
+                    "Meditación y psicoeducación",
+                    "Estimulación de los cinco sentidos",
+                    "Conexión a tierra",
+                    "Liberación energética",
+                    "Integración de la cosmovisión andina",
+                    "Mentoring y coaching",
+                    "Metodología Visión Extra Ocular (VEO)"
+                ],
+                "difficultyLevel": ["Fácil", "Medio", "Alto"],
+                "availability": "Todo el año, previa reserva",
+                "mediaReference": "Carpeta Drive EXP-1"
+            },
+            {
+                "id": "EXP-2",
+                "experienceName": "Cañón de Shutjo",
+                "tourName": "Jauja, Naturaleza y Aventura",
+                "destinations": [
+                    "Laguna de Paca",
+                    "Cañón de Shutjo",
+                    "Sitio arqueológico de Qorivinchos",
+                    "Manantial de Helenapuquio",
+                    "Canchayllo",
+                    "Puya de Raimondi – Cerro Pishtaq"
+                ],
+                "duration": "Full Day (8 horas)",
+                "pricePerPerson": 65,
+                "currency": "PEN",
+                "activities": [
+                    "Caminata ligera",
+                    "Paseo en bote (opcional)",
+                    "Avistamiento de flora y fauna",
+                    "Paradas fotográficas"
+                ],
+                "difficultyLevel": "Moderado",
+                "availability": "Todo el año, salidas diarias (mínimo 4 personas)",
+                "mediaReference": "Drive – EXP-2"
+            },
+            {
+                "id": "EXP-3",
+                "experienceName": "Campiñas, Cascadas y Laguna de Paca",
+                "tourName": "Jauja, Campiñas y Cascadas",
+                "destinations": [
+                    "Cascadas de Quero",
+                    "Molinos",
+                    "Portada colonial de Rumichaca",
+                    "Campiñas de Jauja",
+                    "Mirador de la Laguna de Paca"
+                ],
+                "duration": "Full Day (7 horas)",
+                "pricePerPerson": 55,
+                "currency": "PEN",
+                "activities": [
+                    "Observación de paisajes",
+                    "Actividades de aventura (opcional)",
+                    "Degustación de helados artesanales",
+                    "Paradas fotográficas"
+                ],
+                "difficultyLevel": "Fácil",
+                "availability": "Todo el año, salidas diarias (mínimo 4 personas)",
+                "mediaReference": "Drive – EXP-3"
+            },
+            {
+                "id": "EXP-4",
+                "experienceName": "Ruta de la Granadilla",
+                "tourName": "Jauja, Una Selva de Altura",
+                "destinations": [
+                    "Laguna Corazón",
+                    "Coca Kintu ritual",
+                    "Cascada Paccha Curva",
+                    "Ceja de selva",
+                    "Campos de granadilla",
+                    "Baños termales de Uchubamba"
+                ],
+                "duration": "Full Day (12 horas)",
+                "pricePerPerson": 95,
+                "currency": "PEN",
+                "activities": [
+                    "Paisajes de sierra y selva",
+                    "Avistamiento de flora",
+                    "Baños termomedicinales",
+                    "Paradas fotográficas"
+                ],
+                "difficultyLevel": "Fácil",
+                "availability": "Todo el año, salidas diarias (mínimo 6 personas)",
+                "mediaReference": "Drive – EXP-4"
+            },
+            {
+                "id": "EXP-5",
+                "experienceName": "Valle del Mantaro Clásico",
+                "tourName": "Hatun Mayu, Anchuroso Valle del Mantaro",
+                "destinations": [
+                    "Parque de la Identidad Wanka",
+                    "Cochas Chico",
+                    "Quichuay",
+                    "Restaurante Intiwasi",
+                    "Concepción",
+                    "Convento de Ocopa",
+                    "Mirador Piedra Parada"
+                ],
+                "duration": "Full Day (8 horas)",
+                "pricePerPerson": 75,
+                "currency": "PEN",
+                "activities": [
+                    "City tour cultural",
+                    "Gastronomía regional",
+                    "Paradas fotográficas"
+                ],
+                "difficultyLevel": "Fácil",
+                "availability": "Todo el año, salidas diarias (mínimo 4 personas)",
+                "mediaReference": "Drive – EXP-5"
+            },
+            {
+                "id": "EXP-6",
+                "experienceName": "Huancayo, Cuna de los Wankas",
+                "tourName": "Huancayo Cultural",
+                "destinations": [
+                    "Santuario arqueológico de Warivilca",
+                    "Iglesia de Copón",
+                    "Cani Cruz",
+                    "Mirador de Huamanhuata"
+                ],
+                "duration": "Full Day (8 horas)",
+                "pricePerPerson": 65,
+                "currency": "PEN",
+                "activities": [
+                    "Visita cultural e histórica",
+                    "Observación de paisajes",
+                    "Paradas fotográficas"
+                ],
+                "difficultyLevel": "Fácil",
+                "availability": "Todo el año, salidas diarias (mínimo 5 personas)",
+                "mediaReference": "Drive – EXP-6"
+            },
+            {
+                "id": "EXP-7",
+                "experienceName": "Canipaco, Tierra de los Chunkus",
+                "tourName": "Canipaco Ancestral",
+                "destinations": [
+                    "Valle del Canipaco",
+                    "Cerro Gorila (Chuy Huala)",
+                    "Laguna Mikukuqucha",
+                    "Cañón de Yuncayllo",
+                    "Chongos Alto"
+                ],
+                "duration": "Full Day (10 horas)",
+                "pricePerPerson": 80,
+                "currency": "PEN",
+                "activities": [
+                    "Observación de paisajes",
+                    "Formaciones geológicas",
+                    "Avistamiento de flora y fauna",
+                    "Paradas fotográficas"
+                ],
+                "difficultyLevel": "Medio",
+                "availability": "Todo el año, salidas diarias (mínimo 5 personas)",
+                "mediaReference": "Drive – EXP-7"
+            },
+            {
+                "id": "EXP-8",
+                "experienceName": "Vilca y Huancaya",
+                "tourName": "Dominios del Apu Pariaqaqa",
+                "destinations": [
+                    "Vilca",
+                    "Huancaya",
+                    "Laguna Papacocha",
+                    "Mirador Cantagallo",
+                    "Bosque del Amor",
+                    "Puente de Calicanto"
+                ],
+                "duration": "Full Day (16 horas – salida de madrugada)",
+                "pricePerPerson": 140,
+                "currency": "PEN",
+                "activities": [
+                    "Paisajes de alta montaña",
+                    "Avistamiento de flora y fauna",
+                    "Ingreso a reserva natural",
+                    "Paseo en bote (opcional)"
+                ],
+                "difficultyLevel": "Medio",
+                "availability": "Todo el año, previa reserva (mínimo 6 personas)",
+                "mediaReference": "Drive – EXP-8"
+            },
+            {
+                "id": "EXP-9",
+                "experienceName": "Moya y Vilca",
+                "tourName": "El Río Turquesa más Largo del Perú",
+                "destinations": [
+                    "Moya",
+                    "Iglesia de Piedras",
+                    "Manantial de Huachacora",
+                    "Baños termales de Ayhuicha",
+                    "Puente Warichaca",
+                    "Puente Turumanya"
+                ],
+                "duration": "Full Day (16 horas – salida de madrugada)",
+                "pricePerPerson": 95,
+                "currency": "PEN",
+                "activities": [
+                    "Paisajes de alta montaña",
+                    "Baños termomedicinales",
+                    "Avistamiento de flora y fauna",
+                    "Canotaje (opcional)"
+                ],
+                "difficultyLevel": "Medio",
+                "availability": "Todo el año (recomendado abril a noviembre)",
+                "mediaReference": "Drive – EXP-9"
+            },
+            {
+                "id": "EXP-10",
+                "experienceName": "Bosque de Piedras de Huayllay",
+                "tourName": "Huayllay, Caminando con Gigantes de Piedra",
+                "destinations": [
+                    "Pampas de Junín",
+                    "Huayllay",
+                    "Bosque de Piedras",
+                    "Baños termales de La Calera"
+                ],
+                "duration": "Full Day (16 horas – salida de madrugada)",
+                "pricePerPerson": 120,
+                "currency": "PEN",
+                "activities": [
+                    "Paisajes de alta montaña",
+                    "Ingreso al ANP Huayllay",
+                    "Baños termales (opcional)",
+                    "Paradas fotográficas"
+                ],
+                "difficultyLevel": "Medio",
+                "availability": "Todo el año, previa reserva (mínimo 6 personas)",
+                "mediaReference": "Drive – EXP-10"
+            }
+        ],
+        "forms": {
+            "contactForm": {
+                "enabled": true,
+                "fields": [
+                    "fullName",
+                    "phoneWhatsapp",
+                    "message",
+                    "tourInterest"
+                ]
+            },
+            "bookingForm": {
+                "enabled": true,
+                "fields": [
+                    "travelDate",
+                    "numberOfPeople",
+                    "packageType",
+                    "additionalComments",
+                    "paymentConfirmation"
+                ],
+                "paymentMethods": [
+                    "Yape",
+                    "Plin",
+                    "Transferencia bancaria",
+                    "Tarjeta de crédito",
+                    "Link de pago"
+                ]
+            }
+        },
+        "policies": {
+            "reservationPolicy": {
+                "depositRequired": "Depósito mínimo no reembolsable del 50%",
+                "fullPaymentDeadline": "1 día antes del viaje (3 días para viajes personalizados o de reconexión)"
+            },
+            "modificationPolicy": {
+                "noticeRequired": "48 horas de anticipación",
+                "subjectToAvailability": true
+            },
+            "cancellationPolicy": {
+                "refunds": "Sujeto a costos ya incurridos",
+                "notification": "Notificación escrita obligatoria"
+            }
+        },
+        "additionalContent": {
+            "blogEnabled": true,
+            "faq": [
+                {
+                    "question": "¿Es seguro viajar con Kintu Travel Expeditions?",
+                    "answer": "Sí. Somos una agencia formal registrada en SUNAT, SUNARP y MINCETUR, reconocida como Empresa de Excelencia 2025."
+                },
+                {
+                    "question": "¿Por qué viajar con Kintu Travel Expeditions?",
+                    "answer": "Somos una empresa local de Jauja con guías oficiales, precios justos, sin comisiones ocultas y respaldo de la Cámara de Comercio de Jauja."
+                }
+            ]
+        }
+    }
+}

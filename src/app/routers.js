@@ -12,6 +12,16 @@ export const router = createBrowserRouter([
                 element: <HomePage/>
             },
             {
+                path: '/experiences',
+                element: <h1>Experiencias</h1>,
+                children: [
+                    {
+                        path: '/experiences/:slug',
+                        element: <h1>Slug</h1>
+                    }
+                ]
+            },
+            {
                 path: '/search'
             }
         ]
