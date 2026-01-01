@@ -20,6 +20,13 @@
                 "Environmental care",
                 "Social responsibility"
             ],
+            "limits": {
+                "title": "This Is Where Nature, Culture and Adventure Meet",
+                "paragraphs": [
+                    "It’s time to slow down, reconnect, and experience Peru beyond the obvious. In Jauja and the Mantaro Valley, nature is sacred, culture is alive, and every journey becomes a story worth telling. From breathtaking canyons and highland lagoons to ancient archaeological sites and living Andean traditions, this is where meaningful travel begins.",
+                    "Whether you’re seeking adrenaline-filled adventures through canyons, waterfalls and stone forests, or immersive cultural experiences surrounded by history, wellness and ancestral rituals, you’re exactly where you need to be. With full-day experiences, authentic local gastronomy, pristine landscapes and routes that connect the Andes with the high jungle, Kintu Travel Expeditions invites you to explore Peru in a deeper, more conscious way."
+                ]
+            },
             "address": {
                 "street": "Jr. Jauja N° 729",
                 "city": "Jauja",
@@ -369,6 +376,13 @@
                 "Cuidado del medio ambiente",
                 "Responsabilidad social"
             ],
+            "limits": {
+                "title": "Aquí es donde la naturaleza, la cultura y la aventura se encuentran",
+                "paragraphs": [
+                    "Es momento de desconectarte de lo cotidiano y reconectar con lo esencial. En Jauja y el Valle del Mantaro, la naturaleza es sagrada, la cultura sigue viva y cada experiencia se transforma en un recuerdo inolvidable. Desde cañones imponentes y lagunas altoandinas hasta sitios arqueológicos y rituales ancestrales, aquí comienza un viaje con propósito.",
+                    "Ya sea que busques aventura entre cascadas, bosques de piedra y rutas de alta montaña, o prefieras experiencias culturales, bienestar y conexión espiritual con la tierra, estás en el lugar correcto. Con tours full day, paisajes únicos, gastronomía local auténtica y recorridos que unen la sierra con la ceja de selva, Kintu Travel Expeditions te invita a descubrir el Perú de una forma más profunda, consciente y transformadora."
+                ]
+            },
             "address": {
                 "street": "Jr. Jauja N° 729",
                 "city": "Jauja",

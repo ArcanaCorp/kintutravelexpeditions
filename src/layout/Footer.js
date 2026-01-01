@@ -1,7 +1,7 @@
 import ButtonIcon from '@/features/components/Button/ButtonIcon'
 import logoreverse from '@/shared/img/logo-reverse.png'
 import './styles/footer.css'
-import { IconBrandFacebookFilled, IconBrandInstagramFilled, IconBrandTiktokFilled, IconBrandXFilled, IconBrandYoutubeFilled } from '@tabler/icons-react'
+import { IconBrandFacebook, IconBrandInstagram, IconBrandTiktok, IconBrandYoutube } from '@tabler/icons-react'
 import { content } from '../config';
 
 export default function Footer () {
@@ -42,28 +42,23 @@ export default function Footer () {
                                 <img className='__logo_reverse' src={logoreverse} alt='Logo reverse' />
                                 <ul className='__socials_lst'>
                                     <li>
-                                        <a href='https://www.facebook.com/kintutravel' target='_blank' rel='noopener noreferrer'>
-                                            <IconBrandFacebookFilled/>
+                                        <a href={content.companyInfo.socialMedia.facebook} target='_blank' rel='noopener noreferrer'>
+                                            <IconBrandFacebook/>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href='https://www.facebook.com/kintutravel' target='_blank' rel='noopener noreferrer'>
-                                            <IconBrandInstagramFilled/>
+                                        <a href={content.companyInfo.socialMedia.instagram} target='_blank' rel='noopener noreferrer'>
+                                            <IconBrandInstagram/>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href='https://www.facebook.com/kintutravel' target='_blank' rel='noopener noreferrer'>
-                                            <IconBrandXFilled/>
+                                        <a href={content.companyInfo.socialMedia.youtube} target='_blank' rel='noopener noreferrer'>
+                                            <IconBrandYoutube/>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href='https://www.facebook.com/kintutravel' target='_blank' rel='noopener noreferrer'>
-                                            <IconBrandTiktokFilled/>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href='https://www.facebook.com/kintutravel' target='_blank' rel='noopener noreferrer'>
-                                            <IconBrandYoutubeFilled/>
+                                        <a href={content.companyInfo.socialMedia.tiktok} target='_blank' rel='noopener noreferrer'>
+                                            <IconBrandTiktok/>
                                         </a>
                                     </li>
                                 </ul>

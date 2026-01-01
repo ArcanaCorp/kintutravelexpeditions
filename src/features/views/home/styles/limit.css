@@ -1,0 +1,31 @@
+.--limit-square-xl {
+    width: 80%;
+    height: 270px;
+    background-color: var(--color-n0-10);
+}
+
+.--limit-square-xl .--limit-square-sm {
+    bottom: 10%;
+    right: -25%;
+    width: 70%;
+    height: 160px;
+    background-color: var(--color-danger);
+}
+
+@media (min-width: 768px) {
+    .--limits-text {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .--limits-flex {
+        gap: 8rem;
+    }
+    .--limits-text {
+        width: 40%;
+    }
+    .--limits-text h2 {
+        font-size: 2rem;
+    }
+}

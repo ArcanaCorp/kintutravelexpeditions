@@ -13,3 +13,15 @@ createRoot(document.getElementById('root')).render (
         </Providers>
     </>
 )
+
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+            .then(reg => {
+            console.log('SW registrado', reg);
+            })
+            .catch(err => {
+                console.error('SW error', err);
+            });
+        });
+}
