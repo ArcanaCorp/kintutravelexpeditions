@@ -31,15 +31,14 @@ export default function Header () {
                     <nav className='__navbar'>
                         <ul className='__navbar_list'>
                             <li className='__navbar_item'><Link className='__navbar_link' to='/experiences'>Experiencias</Link></li>
-                            <li className='__navbar_item'><Link className='__navbar_link' to='/'>Actividades</Link></li>
-                            <li className='__navbar_item'><Link className='__navbar_link' to='/'>Alojamiento</Link></li>
-                            <li className='__navbar_item'><Link className='__navbar_link' to='/'>Comida y Bebida</Link></li>
-                            <li className='__navbar_item'><Link className='__navbar_link' to='/'>Eventos</Link></li>
+                            <li className='__navbar_item'><Link className='__navbar_link' to='/blog'>Blog</Link></li>
+                            <li className='__navbar_item'><Link className='__navbar_link' to='/about'>Nosotros</Link></li>
+                            <li className='__navbar_item'><Link className='__navbar_link' to='/contact'>Contáctanos</Link></li>
                         </ul>
                     </nav>
                     <ul className='__navbar_right'>
                         <li className='__li __li_search'><Link to='/search'><IconSearch/></Link></li>
-                        <li className='__li __li_stations'>
+                        <li className='__li __li_stations' style={{display: 'none'}}>
                             <button className={`__btn_station`}><IconFlower/> <span>Primavera</span></button>
                             <button className={`__btn_station`}><IconSun/> <span>Verano</span></button>
                             <button className={`__btn_station`}><IconLeaf/><span>Otoño</span></button>
@@ -55,11 +54,10 @@ export default function Header () {
             <nav className={`__nav ${open ? '__nav--active' : ''}`}>
                 <ul className='__nav_list'>
                     <li className='__nav_item'><Link className='__nav_link' to='/experiences'>Experiencias <IconChevronRight/></Link></li>
-                    <li className='__nav_item'><Link className='__nav_link' to='/'>Actividades  <IconChevronRight/></Link></li>
-                    <li className='__nav_item'><Link className='__nav_link' to='/'>Alojamiento  <IconChevronRight/></Link></li>
-                    <li className='__nav_item'><Link className='__nav_link' to='/'>Comida y Bebida  <IconChevronRight/></Link></li>
-                    <li className='__nav_item'><Link className='__nav_link' to='/'>Eventos  <IconChevronRight/></Link></li>
-                    <li className='__nav_item'><Link className='__nav_link' to='/'>Planea tu visita  <IconChevronRight/></Link></li>
+                    <li className='__nav_item'><Link className='__nav_link' to='/blog'>Blog  <IconChevronRight/></Link></li>
+                    <li className='__nav_item'><Link className='__nav_link' to='/about'>Nosotros  <IconChevronRight/></Link></li>
+                    <li className='__nav_item'><Link className='__nav_link' to='/contact'>Contáctanos  <IconChevronRight/></Link></li>
+                    <li className='__nav_item'><Link className='__nav_link' to='/planer'>Planea tu visita  <IconChevronRight/></Link></li>
                 </ul>
                 <div className='__line'></div>
                 <ul className='__redes'>

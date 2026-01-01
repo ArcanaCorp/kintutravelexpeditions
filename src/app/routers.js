@@ -22,6 +22,18 @@ export const router = createBrowserRouter([
                 ]
             },
             {
+                path: '/blog'
+            },
+            {
+                path: '/about'
+            },
+            {
+                path: '/contact'
+            },
+            {
+                path: '/planer'
+            },
+            {
                 path: '/search'
             }
         ]

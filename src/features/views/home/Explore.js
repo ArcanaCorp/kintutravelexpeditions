@@ -33,7 +33,7 @@ export default function Explore () {
 
         <section className='__section __section_explore'>
 
-            <div className='__box_section w-full m-auto md:w-90'>
+            <div className='__box_section w-full m-auto md:w-90 md:ph-8'>
 
                 <div className='__titler'>
                     <h2 className='__title_section' data-aos="fade-up">Vamos a explorar más</h2>
