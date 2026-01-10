@@ -1,0 +1,50 @@
+.--overlay-aimodal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1001;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.--overlay-aimodal .--aimodal {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 90%;
+}
+
+.--overlay-aimodal .--aimodal .--aimodal-head {
+    border-top-left-radius: var(--radius-md);
+    border-top-right-radius: var(--radius-md);
+}
+
+.--overlay-aimodal .--aimodal .--aimodal-head button {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    background: none;
+}
+
+.--overlay-aimodal .--aimodal .--aimodal-main {
+    height: 300px;
+}
+
+.--overlay-aimodal .--aimodal .--aimodal-box {
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid var(--color-n3);
+}
+
+.--overlay-aimodal .--aimodal .--aimodal-box .--capture {
+    width: 100%;
+    height: 40px;
+    background-color: var(--color-n1);
+}
+
+.--overlay-aimodal .--aimodal .--aimodal-box .--send-capture {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+}

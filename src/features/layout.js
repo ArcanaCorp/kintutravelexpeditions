@@ -7,10 +7,13 @@ import Header from "@/layout/Header";
 import Main from "@/layout/Main";
 import Footer from "../layout/Footer";
 import { Helmet } from "react-helmet";
+import { useAI } from "../context/AIContext";
+import AIModal from "./components/AI/Modal";
 
 export default function RootLayout () {
 
     const { pathname } = useLocation();
+    const { viewModal } = useAI();
 
     useEffect(() => {
         AOS.init({
@@ -71,6 +74,10 @@ export default function RootLayout () {
             <Main/>
 
             <Footer/>
+
+            {viewModal && (
+                <AIModal/>
+            )}
 
         </>
 

@@ -3,21 +3,11 @@ import hero from '@/shared/img/hero.jpg'
 import { content } from '@/config';
 import { Link } from "react-router-dom";
 import { slugify } from '@/helpers/slugify';
-import { IconSparkles } from "@tabler/icons-react";
-import { useTypewriter } from "../../components/text/TextWriting";
+import EntryAI from "../../components/AI/Entry";
 import './styles/hero.css'
 export default function Hero () {
 
     const [ cards, setCards ] = useState([])
-    const [ hasTyped, setHasTyped ] = useState(false);
-
-    const questions = ['¿Mejor fecha para conocer Jauja?', '¿Tienen paquetes para la Tunantada 2026?', '¿Es seguro viajar con Kintu Travel Expeditions?, ¿Por qué viajar con Kintu Travel Expeditions?']
-    const animatedText = useTypewriter(questions, !hasTyped);
-
-    const handleInput = (e) => {
-        const value = e.target.value.trim();
-        value.length > 0 ? setHasTyped(true) : setHasTyped(false)
-    };
 
     const shuffleArray = (array) => {
         const shuffled = [...array];
@@ -63,11 +53,7 @@ export default function Hero () {
                     <div className="__form_ai w-full" data-aos="fade-up">
                         <label className="block w-mincontent m-auto bg-dark text-nowrap text-white text-xs p-2">Tu guía de viaje con Inteligencia Artifial</label>
                         <div className="w-full relative">
-                            <input className="w-full pv-4 ph-4 rounded-pill" name="ia" id="ia" onChange={handleInput}/>
-                            {!hasTyped && (
-                                <span className="absolute text-xs text-gray">{animatedText}</span>
-                            )}
-                            <button className="absolute bg-dark center rounded-pill"><IconSparkles color="#FFFFFF"/></button>
+                            <EntryAI/>
                         </div>
                     </div>
                 </div>

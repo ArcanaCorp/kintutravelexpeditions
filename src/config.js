@@ -20,4 +20,6 @@ const currentLanguage = detectLanguage();
 
 const content = data[currentLanguage] || data.esp;
 
-export { content, currentLanguage };
+const API_KEY_GEMINI = process.env.REACT_APP_API_KEY_GEMINI || undefined
+
+export { content, currentLanguage, API_KEY_GEMINI };
