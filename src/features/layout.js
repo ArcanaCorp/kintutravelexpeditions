@@ -37,13 +37,18 @@ export default function RootLayout () {
         <>
 
             <Helmet>
+                <title>Kintu Travel Expeditions | Turismo de Bienestar y Naturaleza en Perú</title>
+                <meta name="description" content="Kintu Travel Expeditions diseña experiencias de viaje de cinco sentidos enfocadas en bienestar físico, emocional y conexión con la naturaleza en Jauja y el Valle del Mantaro." />
+                <meta name="keywords" content="turismo de bienestar Perú, viajes espirituales Perú, turismo psicoterapéutico, viajes conscientes, tours Jauja, Valle del Mantaro, experiencias holísticas, turismo sostenible" />
+                <meta name="author" content="Kintu Travel Expeditions" />
+                <meta name="robots" content="index, follow, max-image-preview:large" />
                 <script type="application/ld+json">
                     {JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "TravelAgency",
                         "name": "Kintu Travel Expeditions",
-                        "url": "https://kintutravelexpeditions.com",
-                        "logo": "https://kintutravelexpeditions.com/logo.png",
+                        "url": "https://www.kintutravelexpeditions.com",
+                        "logo": "https://www.kintutravelexpeditions.com/logo192.png",
                         "description": "Kintu Travel Expeditions no es una agencia de viajes convencional. Buscamos ser agentes de cambio construyendo un mundo más sano y feliz a través de experiencias de cinco sentidos en contacto con la naturaleza, fortaleciendo la salud física y el bienestar emocional. Cada viaje es una inversión en el ser.",
                         "address": {
                             "@type": "PostalAddress",
