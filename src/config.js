@@ -7,9 +7,6 @@ function detectLanguage() {
 
     const lang = navigator.language || navigator.userLanguage;
 
-    console.log(lang);
-    
-
     if (!lang) return "esp";
 
     if (lang.toLowerCase().startsWith("en")) {

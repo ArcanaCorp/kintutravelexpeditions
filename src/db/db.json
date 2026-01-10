@@ -53,6 +53,7 @@
                 "id": "EXP-1",
                 "experienceName": "Reconnection",
                 "tourName": "RECONEXIÓN – Five Sense Experiences",
+                "slug": "reconexion---experiencias-de-5-sentidos",
                 "destinations": [
                     "Nor Yauyos Cochas Landscape Reserve",
                     "Selva Central",
@@ -78,12 +79,14 @@
                 ],
                 "difficultyLevel": ["Easy", "Medium", "High"],
                 "availability": "All year, reservation required",
-                "mediaReference": "Drive folder EXP-1"
+                "mediaReference": "Drive folder EXP-1",
+                "images": ["cover.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg"]
             },
             {
                 "id": "EXP-2",
                 "experienceName": "Shutjo Canyon",
                 "tourName": "Jauja Nature and Adventure",
+                "slug": "jauja-naturaleza-y-aventura",
                 "destinations": [
                     "Paca Lagoon",
                     "Shutjo Canyon",
@@ -103,12 +106,34 @@
                 ],
                 "difficultyLevel": "Moderate",
                 "availability": "All year, daily departures (minimum 4 people)",
-                "mediaReference": "Drive – EXP-2"
+                "mediaReference": "Drive – EXP-2",
+                "images": [
+                    "cover.jpg",
+                    "DSC_0068.jpg",
+                    "DSC_0116.jpg",
+                    "DSC_0146.jpg",
+                    "DSC_0171-1.jpg",
+                    "DSC_0196-1.jpg",
+                    "DSC_0207-1.jpg",
+                    "DSC_0227-23.jpg",
+                    "DSC_0240-1.jpg",
+                    "DSC_0265-1.jpg",
+                    "DSC_0278-1.jpg",
+                    "DSC_0279-1.jpg",
+                    "DSC_0300-96.jpg",
+                    "DSC_0338-1.jpg",
+                    "DSC_0346-1.jpg",
+                    "DSC_0390-186.jpg",
+                    "DSC_0398-194.jpg",
+                    "DSC_0435-231.jpg",
+                    "DSC_0439-235.jpg"
+                ]
             },
             {
                 "id": "EXP-3",
                 "experienceName": "Countryside, Waterfalls and Paca Lagoon",
                 "tourName": "Jauja Countryside and Waterfalls",
+                "slug": "jauja-campinas-y-cascadas",
                 "destinations": [
                     "Quero Waterfalls",
                     "Molinos",
@@ -133,6 +158,7 @@
                 "id": "EXP-4",
                 "experienceName": "Granadilla Route",
                 "tourName": "Jauja, A High Jungle Experience",
+                "slug": "jauja-una-selva-de-altura",
                 "destinations": [
                     "Corazón Lagoon",
                     "Coca Kintu ritual",
@@ -158,6 +184,7 @@
                 "id": "EXP-5",
                 "experienceName": "Classic Mantaro Valley",
                 "tourName": "Hatun Mayu, Majestic Mantaro Valley",
+                "slug": "hatun-mayu-anchuroso-valle-del-mantaro",
                 "destinations": [
                     "Wanka Identity Park",
                     "Cochas Chico",
@@ -183,6 +210,7 @@
                 "id": "EXP-6",
                 "experienceName": "Huancayo, Cradle of the Wankas",
                 "tourName": "Huancayo Cultural Experience",
+                "slug": "huancayo-cultural",
                 "destinations": [
                     "Warivilca Archaeological Sanctuary",
                     "Copón Colonial Church",
@@ -205,6 +233,7 @@
                 "id": "EXP-7",
                 "experienceName": "Canipaco, Land of the Chunkus",
                 "tourName": "Ancestral Canipaco Valley",
+                "slug": "canipaco-ancestral",
                 "destinations": [
                     "Canipaco Valley",
                     "Cerro Gorila (Chuy Huala)",
@@ -229,6 +258,7 @@
                 "id": "EXP-8",
                 "experienceName": "Vilca and Huancaya",
                 "tourName": "Domains of the Apu Pariaqaqa",
+                "slug": "dominios-del-apu-pariaqaqa",
                 "destinations": [
                     "Vilca",
                     "Huancaya",
@@ -254,6 +284,7 @@
                 "id": "EXP-9",
                 "experienceName": "Moya and Vilca",
                 "tourName": "The Longest Turquoise River in Peru",
+                "slug": "el-rio-turquesa-mas-largo-del-peru",
                 "destinations": [
                     "Moya",
                     "Stone Church",
@@ -279,6 +310,7 @@
                 "id": "EXP-10",
                 "experienceName": "Huayllay Stone Forest",
                 "tourName": "Huayllay, Walking Among Stone Giants",
+                "slug": "huayllay-caminando-con-gigantes-de-piedra",
                 "destinations": [
                     "Junín Plains",
                     "Huayllay",
@@ -409,6 +441,7 @@
                 "id": "EXP-1",
                 "experienceName": "Reconexión",
                 "tourName": "RECONEXIÓN – Experiencias de 5 sentidos",
+                "slug": "reconexion---experiencias-de-5-sentidos",
                 "destinations": [
                     "Reserva Paisajística Nor Yauyos Cochas",
                     "Selva Central",
@@ -434,12 +467,14 @@
                 ],
                 "difficultyLevel": ["Fácil", "Medio", "Alto"],
                 "availability": "Todo el año, previa reserva",
-                "mediaReference": "Carpeta Drive EXP-1"
+                "mediaReference": "Carpeta Drive EXP-1",
+                "images": ["cover.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg"]
             },
             {
                 "id": "EXP-2",
                 "experienceName": "Cañón de Shutjo",
                 "tourName": "Jauja, Naturaleza y Aventura",
+                "slug": "jauja-naturaleza-y-aventura",
                 "destinations": [
                     "Laguna de Paca",
                     "Cañón de Shutjo",
@@ -459,12 +494,34 @@
                 ],
                 "difficultyLevel": "Moderado",
                 "availability": "Todo el año, salidas diarias (mínimo 4 personas)",
-                "mediaReference": "Drive – EXP-2"
+                "mediaReference": "Drive – EXP-2",
+                "images": [
+                    "cover.jpg",
+                    "DSC_0068.jpg",
+                    "DSC_0116.jpg",
+                    "DSC_0146.jpg",
+                    "DSC_0171-1.jpg",
+                    "DSC_0196-1.jpg",
+                    "DSC_0207-1.jpg",
+                    "DSC_0227-23.jpg",
+                    "DSC_0240-1.jpg",
+                    "DSC_0265-1.jpg",
+                    "DSC_0278-1.jpg",
+                    "DSC_0279-1.jpg",
+                    "DSC_0300-96.jpg",
+                    "DSC_0338-1.jpg",
+                    "DSC_0346-1.jpg",
+                    "DSC_0390-186.jpg",
+                    "DSC_0398-194.jpg",
+                    "DSC_0435-231.jpg",
+                    "DSC_0439-235.jpg"
+                ]
             },
             {
                 "id": "EXP-3",
                 "experienceName": "Campiñas, Cascadas y Laguna de Paca",
                 "tourName": "Jauja, Campiñas y Cascadas",
+                "slug": "jauja-campinas-y-cascadas",
                 "destinations": [
                     "Cascadas de Quero",
                     "Molinos",
@@ -483,12 +540,33 @@
                 ],
                 "difficultyLevel": "Fácil",
                 "availability": "Todo el año, salidas diarias (mínimo 4 personas)",
-                "mediaReference": "Drive – EXP-3"
+                "mediaReference": "Drive – EXP-3",
+                "images": [
+                    "cover.jpg",
+                    "DSC_0024-1.jpg",
+                    "DSC_0080-1.jpg",
+                    "DSC_0097-1.jpg",
+                    "DSC_0100-1.jpg",
+                    "DSC_0102-1.jpg",
+                    "DSC_0109-1.jpg",
+                    "DSC_0126-1.jpg",
+                    "DSC_0183-1.jpg",
+                    "DSC_0193-1.jpg",
+                    "DSC_0201-1.jpg",
+                    "DSC_0227-1.jpg",
+                    "DSC_0233-1.jpg",
+                    "DSC_0251-1.jpg",
+                    "DSC_0258-1.jpg",
+                    "DSC_0280-1.jpg",
+                    "DSC_0353-1.jpg",
+                    "DSC_0386-1.jpg"
+                ]
             },
             {
                 "id": "EXP-4",
                 "experienceName": "Ruta de la Granadilla",
                 "tourName": "Jauja, Una Selva de Altura",
+                "slug": "jauja-una-selva-de-altura",
                 "destinations": [
                     "Laguna Corazón",
                     "Coca Kintu ritual",
@@ -508,12 +586,27 @@
                 ],
                 "difficultyLevel": "Fácil",
                 "availability": "Todo el año, salidas diarias (mínimo 6 personas)",
-                "mediaReference": "Drive – EXP-4"
+                "mediaReference": "Drive – EXP-4",
+                "images": [
+                    "cover.jpg",
+                    "DSC_0003-1.jpg",
+                    "DSC_0013-1.jpg",
+                    "DSC_0018-Pano-1.jpg",
+                    "DSC_0060-1.jpg",
+                    "DSC_0085-1.jpg",
+                    "DSC_0114-1.jpg",
+                    "DSC_0130-1.jpg",
+                    "DSC_0147-1.jpg",
+                    "DSC_0158-1.jpg",
+                    "DSC_0209-1.jpg",
+                    "DSC_0227-1.jpg"
+                ]
             },
             {
                 "id": "EXP-5",
                 "experienceName": "Valle del Mantaro Clásico",
                 "tourName": "Hatun Mayu, Anchuroso Valle del Mantaro",
+                "slug": "hatun-mayu-anchuroso-valle-del-mantaro",
                 "destinations": [
                     "Parque de la Identidad Wanka",
                     "Cochas Chico",
@@ -533,12 +626,22 @@
                 ],
                 "difficultyLevel": "Fácil",
                 "availability": "Todo el año, salidas diarias (mínimo 4 personas)",
-                "mediaReference": "Drive – EXP-5"
+                "mediaReference": "Drive – EXP-5",
+                "images": [
+                    "cover.jpg",
+                    "DSC_0310-1.jpg",
+                    "DSC_0312-1.jpg",
+                    "DSC_0313-1.jpg",
+                    "DSC_0315-1.jpg",
+                    "DSC_0351-1.jpg"
+                ],
+                "video": "Intiwasi.mp4"
             },
             {
                 "id": "EXP-6",
                 "experienceName": "Huancayo, Cuna de los Wankas",
                 "tourName": "Huancayo Cultural",
+                "slug": "huancayo-cultural",
                 "destinations": [
                     "Santuario arqueológico de Warivilca",
                     "Iglesia de Copón",
@@ -555,12 +658,26 @@
                 ],
                 "difficultyLevel": "Fácil",
                 "availability": "Todo el año, salidas diarias (mínimo 5 personas)",
-                "mediaReference": "Drive – EXP-6"
+                "mediaReference": "Drive – EXP-6",
+                "images": [
+                    "cover.jpg",
+                    "DSC_0005.jpg",
+                    "DSC_0025.jpg",
+                    "DSC_0040.jpg",
+                    "DSC_0069.jpg",
+                    "DSC_0303-1.jpg",
+                    "DSC_0334-1.jpg",
+                    "DSC_0361-1.jpg",
+                    "DSC_0364-1.jpg",
+                    "DSC_0387-1.jpg",
+                    "DSC_0423-1.jpg"
+                ]
             },
             {
                 "id": "EXP-7",
                 "experienceName": "Canipaco, Tierra de los Chunkus",
                 "tourName": "Canipaco Ancestral",
+                "slug": "canipaco-ancestral",
                 "destinations": [
                     "Valle del Canipaco",
                     "Cerro Gorila (Chuy Huala)",
@@ -579,12 +696,25 @@
                 ],
                 "difficultyLevel": "Medio",
                 "availability": "Todo el año, salidas diarias (mínimo 5 personas)",
-                "mediaReference": "Drive – EXP-7"
+                "mediaReference": "Drive – EXP-7",
+                "images": [
+                    "cover.jpg",
+                    "DSC_0021.jpg",
+                    "DSC_0041.jpg",
+                    "DSC_0047.jpg",
+                    "DSC_0071.jpg",
+                    "DSC_0086.jpg",
+                    "DSC_0107.jpg",
+                    "DSC_0148-Pano.jpg",
+                    "DSC_0205.jpg",
+                    "DSC_0223.jpg"
+                ]
             },
             {
                 "id": "EXP-8",
                 "experienceName": "Vilca y Huancaya",
                 "tourName": "Dominios del Apu Pariaqaqa",
+                "slug": "dominios-del-apu-pariaqaqa",
                 "destinations": [
                     "Vilca",
                     "Huancaya",
@@ -604,12 +734,34 @@
                 ],
                 "difficultyLevel": "Medio",
                 "availability": "Todo el año, previa reserva (mínimo 6 personas)",
-                "mediaReference": "Drive – EXP-8"
+                "mediaReference": "Drive – EXP-8",
+                "images": [
+                    "cover.jpg",
+                    "DSC_0520.jpg",
+                    "19042019-DSC_0559.jpg",
+                    "19042019-DSC_0602.jpg",
+                    "19042019-DSC_0605.jpg",
+                    "20042019-DSC_0664.jpg",
+                    "DSC_0010.jpg",
+                    "DSC_0106.jpg",
+                    "DSC_0150.jpg",
+                    "DSC_0181.jpg",
+                    "DSC_0192.jpg",
+                    "DSC_0248.jpg",
+                    "DSC_0287.jpg",
+                    "DSC_0305.jpg",
+                    "DSC_0320.jpg",
+                    "DSC_0330.jpg",
+                    "DSC_0331.jpg",
+                    "DSC_0374.jpg",
+                    "DSC_0393.jpg"
+                ]
             },
             {
                 "id": "EXP-9",
                 "experienceName": "Moya y Vilca",
                 "tourName": "El Río Turquesa más Largo del Perú",
+                "slug": "el-rio-turquesa-mas-largo-del-peru",
                 "destinations": [
                     "Moya",
                     "Iglesia de Piedras",
@@ -629,12 +781,31 @@
                 ],
                 "difficultyLevel": "Medio",
                 "availability": "Todo el año (recomendado abril a noviembre)",
-                "mediaReference": "Drive – EXP-9"
+                "mediaReference": "Drive – EXP-9",
+                "images": [
+                    "cover.jpg",
+                    "DSC_0001-1.jpg",
+                    "DSC_0011-1.jpg",
+                    "DSC_0021-1.jpg",
+                    "DSC_0061-1.jpg",
+                    "DSC_0072-1.jpg",
+                    "DSC_0102-1.jpg",
+                    "DSC_0115-1.jpg",
+                    "DSC_0121-Pano-1.jpg",
+                    "DSC_0124-1.jpg",
+                    "DSC_0222-1.jpg",
+                    "DSC_0264-1.jpg",
+                    "DSC_0267-1.jpg",
+                    "DSC_0280-1.jpg",
+                    "DSC_0291-1.jpg",
+                    "DSC_0302-1.jpg"
+                ]
             },
             {
                 "id": "EXP-10",
                 "experienceName": "Bosque de Piedras de Huayllay",
                 "tourName": "Huayllay, Caminando con Gigantes de Piedra",
+                "slug": "huayllay-caminando-con-gigantes-de-piedra",
                 "destinations": [
                     "Pampas de Junín",
                     "Huayllay",
@@ -652,7 +823,17 @@
                 ],
                 "difficultyLevel": "Medio",
                 "availability": "Todo el año, previa reserva (mínimo 6 personas)",
-                "mediaReference": "Drive – EXP-10"
+                "mediaReference": "Drive – EXP-10",
+                "images": [
+                    "cover.jpg",
+                    "DSC_0009-1.jpg",
+                    "DSC_0019-1.jpg",
+                    "DSC_0028-1.jpg",
+                    "DSC_0040-1.jpg",
+                    "DSC_0042-1.jpg",
+                    "DSC_0067-1.jpg",
+                    "DSC_0086-1.jpg"
+                ]
             }
         ],
         "forms": {
