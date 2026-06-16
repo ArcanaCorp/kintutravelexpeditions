@@ -1,0 +1,681 @@
+/* ========================= */
+/* Text Wrap */
+/* ========================= */
+
+.text-wrap { text-wrap: wrap; }
+.text-nowrap { text-wrap: nowrap; }
+.text-balance { text-wrap: balance; }
+.text-pretty { text-wrap: pretty; }
+
+/* ========================= */
+/* Font Sizes */
+/* ========================= */
+
+.fs-xs { font-size: var(--fs-xs); }
+.fs-sm { font-size: var(--fs-sm); }
+.fs-md { font-size: var(--fs-md); }
+.fs-lg { font-size: var(--fs-lg); }
+.fs-xl { font-size: var(--fs-xl); }
+.fs-2xl { font-size: var(--fs-2xl); }
+.fs-3xl { font-size: var(--fs-3xl); }
+.fs-4xl { font-size: var(--fs-4xl); }
+.fs-5xl { font-size: var(--fs-5xl); }
+.fs-6xl { font-size: var(--fs-6xl); }
+.fs-7xl { font-size: var(--fs-7xl); }
+.fs-8xl { font-size: var(--fs-8xl); }
+
+/* ========================= */
+/* Font Weight */
+/* ========================= */
+
+.fw-regular { font-weight: var(--fw-regular); }
+.fw-medium { font-weight: var(--fw-medium); }
+.fw-bold { font-weight: var(--fw-bold); }
+.fw-bolder { font-weight: var(--fw-bolder); }
+
+/* ========================= */
+/* Text Align */
+/* ========================= */
+
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-justify { text-align: justify; }
+.text-start { text-align: start; }
+.text-end { text-align: end; }
+
+/* ========================= */
+/* Text Transform */
+/* ========================= */
+
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }
+.normal-case { text-transform: none; }
+
+/* ========================= */
+/* Font Style */
+/* ========================= */
+
+.italic { font-style: italic; }
+.not-italic { font-style: normal; }
+
+/* ========================= */
+/* Text Decoration */
+/* ========================= */
+
+.underline { text-decoration: underline; }
+.overline { text-decoration: overline; }
+.line-through { text-decoration: line-through; }
+.no-underline { text-decoration: none; }
+
+/* ========================= */
+/* Text Overflow */
+/* ========================= */
+
+.truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.text-ellipsis {
+    text-overflow: ellipsis;
+}
+
+.text-clip {
+    text-overflow: clip;
+}
+
+/* ========================= */
+/* White Space */
+/* ========================= */
+
+.whitespace-normal { white-space: normal; }
+.whitespace-nowrap { white-space: nowrap; }
+.whitespace-pre { white-space: pre; }
+.whitespace-pre-line { white-space: pre-line; }
+.whitespace-pre-wrap { white-space: pre-wrap; }
+.whitespace-break-spaces { white-space: break-spaces; }
+
+/* ========================= */
+/* Word Break */
+/* ========================= */
+
+.break-normal {
+    overflow-wrap: normal;
+    word-break: normal;
+}
+
+.break-words {
+    overflow-wrap: break-word;
+}
+
+.break-all {
+    word-break: break-all;
+}
+
+.break-keep {
+    word-break: keep-all;
+}
+
+/* ========================= */
+/* Line Height */
+/* ========================= */
+
+.leading-none { line-height: 1; }
+.leading-tight { line-height: 1.25; }
+.leading-snug { line-height: 1.375; }
+.leading-normal { line-height: 1.5; }
+.leading-relaxed { line-height: 1.625; }
+.leading-loose { line-height: 2; }
+
+/* ========================= */
+/* Letter Spacing */
+/* ========================= */
+
+.tracking-tighter { letter-spacing: -0.05em; }
+.tracking-tight { letter-spacing: -0.025em; }
+.tracking-normal { letter-spacing: 0; }
+.tracking-wide { letter-spacing: 0.025em; }
+.tracking-wider { letter-spacing: 0.05em; }
+.tracking-widest { letter-spacing: 0.1em; }
+
+/* ========================= */
+/* User Select */
+/* ========================= */
+
+.select-none { user-select: none; }
+.select-text { user-select: text; }
+.select-all { user-select: all; }
+.select-auto { user-select: auto; }
+
+/* ========================= */
+/* Text Indent */
+/* ========================= */
+
+.indent-1 { text-indent: var(--space-1); }
+.indent-2 { text-indent: var(--space-2); }
+.indent-3 { text-indent: var(--space-3); }
+.indent-4 { text-indent: var(--space-4); }
+.indent-5 { text-indent: var(--space-5); }
+.indent-6 { text-indent: var(--space-6); }
+.indent-8 { text-indent: var(--space-8); }
+.indent-10 { text-indent: var(--space-10); }
+
+/* ========================= */
+/* Vertical Align */
+/* ========================= */
+
+.align-baseline { vertical-align: baseline; }
+.align-top { vertical-align: top; }
+.align-middle { vertical-align: middle; }
+.align-bottom { vertical-align: bottom; }
+.align-text-top { vertical-align: text-top; }
+.align-text-bottom { vertical-align: text-bottom; }
+.align-sub { vertical-align: sub; }
+.align-super { vertical-align: super; }
+
+/* ========================= */
+/* Common Utilities */
+/* ========================= */
+
+.text-inherit { color: inherit; }
+.font-inherit {font: inherit;}
+
+
+@media (min-width: 768px) {
+
+    .md\:text-wrap { text-wrap: wrap; }
+    .md\:text-nowrap { text-wrap: nowrap; }
+    .md\:text-balance { text-wrap: balance; }
+    .md\:text-pretty { text-wrap: pretty; }
+
+    .md\:fs-xs { font-size: var(--fs-xs); }
+    .md\:fs-sm { font-size: var(--fs-sm); }
+    .md\:fs-md { font-size: var(--fs-md); }
+    .md\:fs-lg { font-size: var(--fs-lg); }
+    .md\:fs-xl { font-size: var(--fs-xl); }
+    .md\:fs-2xl { font-size: var(--fs-2xl); }
+    .md\:fs-3xl { font-size: var(--fs-3xl); }
+    .md\:fs-4xl { font-size: var(--fs-4xl); }
+    .md\:fs-5xl { font-size: var(--fs-5xl); }
+    .md\:fs-6xl { font-size: var(--fs-6xl); }
+    .md\:fs-7xl { font-size: var(--fs-7xl); }
+    .md\:fs-8xl { font-size: var(--fs-8xl); }
+
+    .md\:fw-regular { font-weight: var(--fw-regular); }
+    .md\:fw-medium { font-weight: var(--fw-medium); }
+    .md\:fw-bold { font-weight: var(--fw-bold); }
+    .md\:fw-bolder { font-weight: var(--fw-bolder); }
+
+    .md\:text-left { text-align: left; }
+    .md\:text-center { text-align: center; }
+    .md\:text-right { text-align: right; }
+    .md\:text-justify { text-align: justify; }
+    .md\:text-start { text-align: start; }
+    .md\:text-end { text-align: end; }
+
+    .md\:uppercase { text-transform: uppercase; }
+    .md\:lowercase { text-transform: lowercase; }
+    .md\:capitalize { text-transform: capitalize; }
+    .md\:normal-case { text-transform: none; }
+
+    .md\:italic { font-style: italic; }
+    .md\:not-italic { font-style: normal; }
+
+    .md\:underline { text-decoration: underline; }
+    .md\:overline { text-decoration: overline; }
+    .md\:line-through { text-decoration: line-through; }
+    .md\:no-underline { text-decoration: none; }
+
+    .md\:truncate {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .md\:text-ellipsis {
+        text-overflow: ellipsis;
+    }
+
+    .md\:text-clip {
+        text-overflow: clip;
+    }
+
+    .md\:whitespace-normal { white-space: normal; }
+    .md\:whitespace-nowrap { white-space: nowrap; }
+    .md\:whitespace-pre { white-space: pre; }
+    .md\:whitespace-pre-line { white-space: pre-line; }
+    .md\:whitespace-pre-wrap { white-space: pre-wrap; }
+    .md\:whitespace-break-spaces { white-space: break-spaces; }
+
+    .md\:break-normal {
+        overflow-wrap: normal;
+        word-break: normal;
+    }
+
+    .md\:break-words {
+        overflow-wrap: break-word;
+    }
+
+    .md\:break-all {
+        word-break: break-all;
+    }
+
+    .md\:break-keep {
+        word-break: keep-all;
+    }
+
+    .md\:leading-none { line-height: 1; }
+    .md\:leading-tight { line-height: 1.25; }
+    .md\:leading-snug { line-height: 1.375; }
+    .md\:leading-normal { line-height: 1.5; }
+    .md\:leading-relaxed { line-height: 1.625; }
+    .md\:leading-loose { line-height: 2; }
+
+    .md\:tracking-tighter { letter-spacing: -0.05em; }
+    .md\:tracking-tight { letter-spacing: -0.025em; }
+    .md\:tracking-normal { letter-spacing: 0; }
+    .md\:tracking-wide { letter-spacing: 0.025em; }
+    .md\:tracking-wider { letter-spacing: 0.05em; }
+    .md\:tracking-widest { letter-spacing: 0.1em; }
+
+    .md\:select-none { user-select: none; }
+    .md\:select-text { user-select: text; }
+    .md\:select-all { user-select: all; }
+    .md\:select-auto { user-select: auto; }
+
+    .md\:indent-1 { text-indent: var(--space-1); }
+    .md\:indent-2 { text-indent: var(--space-2); }
+    .md\:indent-3 { text-indent: var(--space-3); }
+    .md\:indent-4 { text-indent: var(--space-4); }
+    .md\:indent-5 { text-indent: var(--space-5); }
+    .md\:indent-6 { text-indent: var(--space-6); }
+    .md\:indent-8 { text-indent: var(--space-8); }
+    .md\:indent-10 { text-indent: var(--space-10); }
+
+    .md\:align-baseline { vertical-align: baseline; }
+    .md\:align-top { vertical-align: top; }
+    .md\:align-middle { vertical-align: middle; }
+    .md\:align-bottom { vertical-align: bottom; }
+    .md\:align-text-top { vertical-align: text-top; }
+    .md\:align-text-bottom { vertical-align: text-bottom; }
+    .md\:align-sub { vertical-align: sub; }
+    .md\:align-super { vertical-align: super; }
+
+    .md\:text-inherit { color: inherit; }
+    .md\:font-inherit {font: inherit;}
+}
+
+@media (min-width: 1024px) {
+
+    .lg\:text-wrap { text-wrap: wrap; }
+    .lg\:text-nowrap { text-wrap: nowrap; }
+    .lg\:text-balance { text-wrap: balance; }
+    .lg\:text-pretty { text-wrap: pretty; }
+
+    .lg\:fs-xs { font-size: var(--fs-xs); }
+    .lg\:fs-sm { font-size: var(--fs-sm); }
+    .lg\:fs-md { font-size: var(--fs-md); }
+    .lg\:fs-lg { font-size: var(--fs-lg); }
+    .lg\:fs-xl { font-size: var(--fs-xl); }
+    .lg\:fs-2xl { font-size: var(--fs-2xl); }
+    .lg\:fs-3xl { font-size: var(--fs-3xl); }
+    .lg\:fs-4xl { font-size: var(--fs-4xl); }
+    .lg\:fs-5xl { font-size: var(--fs-5xl); }
+    .lg\:fs-6xl { font-size: var(--fs-6xl); }
+    .lg\:fs-7xl { font-size: var(--fs-7xl); }
+    .lg\:fs-8xl { font-size: var(--fs-8xl); }
+
+    .lg\:fw-regular { font-weight: var(--fw-regular); }
+    .lg\:fw-medium { font-weight: var(--fw-medium); }
+    .lg\:fw-bold { font-weight: var(--fw-bold); }
+    .lg\:fw-bolder { font-weight: var(--fw-bolder); }
+
+    .lg\:text-left { text-align: left; }
+    .lg\:text-center { text-align: center; }
+    .lg\:text-right { text-align: right; }
+    .lg\:text-justify { text-align: justify; }
+    .lg\:text-start { text-align: start; }
+    .lg\:text-end { text-align: end; }
+
+    .lg\:uppercase { text-transform: uppercase; }
+    .lg\:lowercase { text-transform: lowercase; }
+    .lg\:capitalize { text-transform: capitalize; }
+    .lg\:normal-case { text-transform: none; }
+
+    .lg\:italic { font-style: italic; }
+    .lg\:not-italic { font-style: normal; }
+
+    .lg\:underline { text-decoration: underline; }
+    .lg\:overline { text-decoration: overline; }
+    .lg\:line-through { text-decoration: line-through; }
+    .lg\:no-underline { text-decoration: none; }
+
+    .lg\:truncate {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .lg\:text-ellipsis {
+        text-overflow: ellipsis;
+    }
+
+    .lg\:text-clip {
+        text-overflow: clip;
+    }
+
+    .lg\:whitespace-normal { white-space: normal; }
+    .lg\:whitespace-nowrap { white-space: nowrap; }
+    .lg\:whitespace-pre { white-space: pre; }
+    .lg\:whitespace-pre-line { white-space: pre-line; }
+    .lg\:whitespace-pre-wrap { white-space: pre-wrap; }
+    .lg\:whitespace-break-spaces { white-space: break-spaces; }
+
+    .lg\:break-normal {
+        overflow-wrap: normal;
+        word-break: normal;
+    }
+
+    .lg\:break-words {
+        overflow-wrap: break-word;
+    }
+
+    .lg\:break-all {
+        word-break: break-all;
+    }
+
+    .lg\:break-keep {
+        word-break: keep-all;
+    }
+
+    .lg\:leading-none { line-height: 1; }
+    .lg\:leading-tight { line-height: 1.25; }
+    .lg\:leading-snug { line-height: 1.375; }
+    .lg\:leading-normal { line-height: 1.5; }
+    .lg\:leading-relaxed { line-height: 1.625; }
+    .lg\:leading-loose { line-height: 2; }
+
+    .lg\:tracking-tighter { letter-spacing: -0.05em; }
+    .lg\:tracking-tight { letter-spacing: -0.025em; }
+    .lg\:tracking-normal { letter-spacing: 0; }
+    .lg\:tracking-wide { letter-spacing: 0.025em; }
+    .lg\:tracking-wider { letter-spacing: 0.05em; }
+    .lg\:tracking-widest { letter-spacing: 0.1em; }
+
+    .lg\:select-none { user-select: none; }
+    .lg\:select-text { user-select: text; }
+    .lg\:select-all { user-select: all; }
+    .lg\:select-auto { user-select: auto; }
+
+    .lg\:indent-1 { text-indent: var(--space-1); }
+    .lg\:indent-2 { text-indent: var(--space-2); }
+    .lg\:indent-3 { text-indent: var(--space-3); }
+    .lg\:indent-4 { text-indent: var(--space-4); }
+    .lg\:indent-5 { text-indent: var(--space-5); }
+    .lg\:indent-6 { text-indent: var(--space-6); }
+    .lg\:indent-8 { text-indent: var(--space-8); }
+    .lg\:indent-10 { text-indent: var(--space-10); }
+
+    .lg\:align-baseline { vertical-align: baseline; }
+    .lg\:align-top { vertical-align: top; }
+    .lg\:align-middle { vertical-align: middle; }
+    .lg\:align-bottom { vertical-align: bottom; }
+    .lg\:align-text-top { vertical-align: text-top; }
+    .lg\:align-text-bottom { vertical-align: text-bottom; }
+    .lg\:align-sub { vertical-align: sub; }
+    .lg\:align-super { vertical-align: super; }
+
+    .lg\:text-inherit { color: inherit; }
+    .lg\:font-inherit {font: inherit;}
+}
+
+@media (min-width: 1440px) {
+
+    .xl\:text-wrap { text-wrap: wrap; }
+    .xl\:text-nowrap { text-wrap: nowrap; }
+    .xl\:text-balance { text-wrap: balance; }
+    .xl\:text-pretty { text-wrap: pretty; }
+
+    .xl\:fs-xs { font-size: var(--fs-xs); }
+    .xl\:fs-sm { font-size: var(--fs-sm); }
+    .xl\:fs-md { font-size: var(--fs-md); }
+    .xl\:fs-lg { font-size: var(--fs-lg); }
+    .xl\:fs-xl { font-size: var(--fs-xl); }
+    .xl\:fs-2xl { font-size: var(--fs-2xl); }
+    .xl\:fs-3xl { font-size: var(--fs-3xl); }
+    .xl\:fs-4xl { font-size: var(--fs-4xl); }
+    .xl\:fs-5xl { font-size: var(--fs-5xl); }
+    .xl\:fs-6xl { font-size: var(--fs-6xl); }
+    .xl\:fs-7xl { font-size: var(--fs-7xl); }
+    .xl\:fs-8xl { font-size: var(--fs-8xl); }
+
+    .xl\:fw-regular { font-weight: var(--fw-regular); }
+    .xl\:fw-medium { font-weight: var(--fw-medium); }
+    .xl\:fw-bold { font-weight: var(--fw-bold); }
+    .xl\:fw-bolder { font-weight: var(--fw-bolder); }
+
+    .xl\:text-left { text-align: left; }
+    .xl\:text-center { text-align: center; }
+    .xl\:text-right { text-align: right; }
+    .xl\:text-justify { text-align: justify; }
+    .xl\:text-start { text-align: start; }
+    .xl\:text-end { text-align: end; }
+
+    .xl\:uppercase { text-transform: uppercase; }
+    .xl\:lowercase { text-transform: lowercase; }
+    .xl\:capitalize { text-transform: capitalize; }
+    .xl\:normal-case { text-transform: none; }
+
+    .xl\:italic { font-style: italic; }
+    .xl\:not-italic { font-style: normal; }
+
+    .xl\:underline { text-decoration: underline; }
+    .xl\:overline { text-decoration: overline; }
+    .xl\:line-through { text-decoration: line-through; }
+    .xl\:no-underline { text-decoration: none; }
+
+    .xl\:truncate {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .xl\:text-ellipsis {
+        text-overflow: ellipsis;
+    }
+
+    .xl\:text-clip {
+        text-overflow: clip;
+    }
+
+    .xl\:whitespace-normal { white-space: normal; }
+    .xl\:whitespace-nowrap { white-space: nowrap; }
+    .xl\:whitespace-pre { white-space: pre; }
+    .xl\:whitespace-pre-line { white-space: pre-line; }
+    .xl\:whitespace-pre-wrap { white-space: pre-wrap; }
+    .xl\:whitespace-break-spaces { white-space: break-spaces; }
+
+    .xl\:break-normal {
+        overflow-wrap: normal;
+        word-break: normal;
+    }
+
+    .xl\:break-words {
+        overflow-wrap: break-word;
+    }
+
+    .xl\:break-all {
+        word-break: break-all;
+    }
+
+    .xl\:break-keep {
+        word-break: keep-all;
+    }
+
+    .xl\:leading-none { line-height: 1; }
+    .xl\:leading-tight { line-height: 1.25; }
+    .xl\:leading-snug { line-height: 1.375; }
+    .xl\:leading-normal { line-height: 1.5; }
+    .xl\:leading-relaxed { line-height: 1.625; }
+    .xl\:leading-loose { line-height: 2; }
+
+    .xl\:tracking-tighter { letter-spacing: -0.05em; }
+    .xl\:tracking-tight { letter-spacing: -0.025em; }
+    .xl\:tracking-normal { letter-spacing: 0; }
+    .xl\:tracking-wide { letter-spacing: 0.025em; }
+    .xl\:tracking-wider { letter-spacing: 0.05em; }
+    .xl\:tracking-widest { letter-spacing: 0.1em; }
+
+    .xl\:select-none { user-select: none; }
+    .xl\:select-text { user-select: text; }
+    .xl\:select-all { user-select: all; }
+    .xl\:select-auto { user-select: auto; }
+
+    .xl\:indent-1 { text-indent: var(--space-1); }
+    .xl\:indent-2 { text-indent: var(--space-2); }
+    .xl\:indent-3 { text-indent: var(--space-3); }
+    .xl\:indent-4 { text-indent: var(--space-4); }
+    .xl\:indent-5 { text-indent: var(--space-5); }
+    .xl\:indent-6 { text-indent: var(--space-6); }
+    .xl\:indent-8 { text-indent: var(--space-8); }
+    .xl\:indent-10 { text-indent: var(--space-10); }
+
+    .xl\:align-baseline { vertical-align: baseline; }
+    .xl\:align-top { vertical-align: top; }
+    .xl\:align-middle { vertical-align: middle; }
+    .xl\:align-bottom { vertical-align: bottom; }
+    .xl\:align-text-top { vertical-align: text-top; }
+    .xl\:align-text-bottom { vertical-align: text-bottom; }
+    .xl\:align-sub { vertical-align: sub; }
+    .xl\:align-super { vertical-align: super; }
+
+    .xl\:text-inherit { color: inherit; }
+    .xl\:font-inherit {font: inherit;}
+}
+
+@media (min-width: 2560px) {
+
+    .xxl\:text-wrap { text-wrap: wrap; }
+    .xxl\:text-nowrap { text-wrap: nowrap; }
+    .xxl\:text-balance { text-wrap: balance; }
+    .xxl\:text-pretty { text-wrap: pretty; }
+
+    .xxl\:fs-xs { font-size: var(--fs-xs); }
+    .xxl\:fs-sm { font-size: var(--fs-sm); }
+    .xxl\:fs-md { font-size: var(--fs-md); }
+    .xxl\:fs-lg { font-size: var(--fs-lg); }
+    .xxl\:fs-xl { font-size: var(--fs-xl); }
+    .xxl\:fs-2xl { font-size: var(--fs-2xl); }
+    .xxl\:fs-3xl { font-size: var(--fs-3xl); }
+    .xxl\:fs-4xl { font-size: var(--fs-4xl); }
+    .xxl\:fs-5xl { font-size: var(--fs-5xl); }
+    .xxl\:fs-6xl { font-size: var(--fs-6xl); }
+    .xxl\:fs-7xl { font-size: var(--fs-7xl); }
+    .xxl\:fs-8xl { font-size: var(--fs-8xl); }
+
+    .xxl\:fw-regular { font-weight: var(--fw-regular); }
+    .xxl\:fw-medium { font-weight: var(--fw-medium); }
+    .xxl\:fw-bold { font-weight: var(--fw-bold); }
+    .xxl\:fw-bolder { font-weight: var(--fw-bolder); }
+
+    .xxl\:text-left { text-align: left; }
+    .xxl\:text-center { text-align: center; }
+    .xxl\:text-right { text-align: right; }
+    .xxl\:text-justify { text-align: justify; }
+    .xxl\:text-start { text-align: start; }
+    .xxl\:text-end { text-align: end; }
+
+    .xxl\:uppercase { text-transform: uppercase; }
+    .xxl\:lowercase { text-transform: lowercase; }
+    .xxl\:capitalize { text-transform: capitalize; }
+    .xxl\:normal-case { text-transform: none; }
+
+    .xxl\:italic { font-style: italic; }
+    .xxl\:not-italic { font-style: normal; }
+
+    .xxl\:underline { text-decoration: underline; }
+    .xxl\:overline { text-decoration: overline; }
+    .xxl\:line-through { text-decoration: line-through; }
+    .xxl\:no-underline { text-decoration: none; }
+
+    .xxl\:truncate {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .xxl\:text-ellipsis {
+        text-overflow: ellipsis;
+    }
+
+    .xxl\:text-clip {
+        text-overflow: clip;
+    }
+
+    .xxl\:whitespace-normal { white-space: normal; }
+    .xxl\:whitespace-nowrap { white-space: nowrap; }
+    .xxl\:whitespace-pre { white-space: pre; }
+    .xxl\:whitespace-pre-line { white-space: pre-line; }
+    .xxl\:whitespace-pre-wrap { white-space: pre-wrap; }
+    .xxl\:whitespace-break-spaces { white-space: break-spaces; }
+
+    .xxl\:break-normal {
+        overflow-wrap: normal;
+        word-break: normal;
+    }
+
+    .xxl\:break-words {
+        overflow-wrap: break-word;
+    }
+
+    .xxl\:break-all {
+        word-break: break-all;
+    }
+
+    .xxl\:break-keep {
+        word-break: keep-all;
+    }
+
+    .xxl\:leading-none { line-height: 1; }
+    .xxl\:leading-tight { line-height: 1.25; }
+    .xxl\:leading-snug { line-height: 1.375; }
+    .xxl\:leading-normal { line-height: 1.5; }
+    .xxl\:leading-relaxed { line-height: 1.625; }
+    .xxl\:leading-loose { line-height: 2; }
+
+    .xxl\:tracking-tighter { letter-spacing: -0.05em; }
+    .xxl\:tracking-tight { letter-spacing: -0.025em; }
+    .xxl\:tracking-normal { letter-spacing: 0; }
+    .xxl\:tracking-wide { letter-spacing: 0.025em; }
+    .xxl\:tracking-wider { letter-spacing: 0.05em; }
+    .xxl\:tracking-widest { letter-spacing: 0.1em; }
+
+    .xxl\:select-none { user-select: none; }
+    .xxl\:select-text { user-select: text; }
+    .xxl\:select-all { user-select: all; }
+    .xxl\:select-auto { user-select: auto; }
+
+    .xxl\:indent-1 { text-indent: var(--space-1); }
+    .xxl\:indent-2 { text-indent: var(--space-2); }
+    .xxl\:indent-3 { text-indent: var(--space-3); }
+    .xxl\:indent-4 { text-indent: var(--space-4); }
+    .xxl\:indent-5 { text-indent: var(--space-5); }
+    .xxl\:indent-6 { text-indent: var(--space-6); }
+    .xxl\:indent-8 { text-indent: var(--space-8); }
+    .xxl\:indent-10 { text-indent: var(--space-10); }
+
+    .xxl\:align-baseline { vertical-align: baseline; }
+    .xxl\:align-top { vertical-align: top; }
+    .xxl\:align-middle { vertical-align: middle; }
+    .xxl\:align-bottom { vertical-align: bottom; }
+    .xxl\:align-text-top { vertical-align: text-top; }
+    .xxl\:align-text-bottom { vertical-align: text-bottom; }
+    .xxl\:align-sub { vertical-align: sub; }
+    .xxl\:align-super { vertical-align: super; }
+
+    .xxl\:text-inherit { color: inherit; }
+    .xxl\:font-inherit {font: inherit;}
+}

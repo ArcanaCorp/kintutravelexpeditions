@@ -1,0 +1,15 @@
+.input {
+    width: 100%;
+    height: 50px;
+    background: none;
+    font-size: .9rem;
+    border-bottom: 2px solid var(--color-gray);
+}
+
+.textarea {
+    width: 100%;
+    background: none;
+    min-height: 50px;
+    font-size: .9rem;
+    border-bottom: 2px solid var(--color-gray);
+}

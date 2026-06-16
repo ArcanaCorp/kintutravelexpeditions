@@ -1,0 +1,38 @@
+.btn {
+    display: inline;
+}
+
+.btn-decorative {
+    align-items: center;
+    border: 2px solid var(--color-dark);
+    border-radius: var(--radius-pill);
+    display: inline-flex;
+    gap: .5rem;
+    overflow: hidden;
+    padding: .6rem 1rem;
+    position: relative;
+    width: -webkit-max-content;
+    width: max-content;
+    z-index: 1;
+}
+
+.btn-decorative .arrow {
+    align-items: center;
+    background-color: #cedc00;
+    border-radius: 50%;
+    display: inline-flex;
+    flex-shrink: 0;
+    height: 20px;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    transition: all .3s ease;
+    width: 20px;
+    z-index: -1;
+}
+
+.btn-decorative:hover .arrow {
+    height: 200px;
+    right: 0;
+    width: 200px;
+}
