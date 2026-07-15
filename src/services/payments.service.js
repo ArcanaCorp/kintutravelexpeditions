@@ -15,6 +15,8 @@ export const getTokenForm = async (form) => {
 
         const data = await response.json();
 
+        console.log(data);
+
         if (!response.ok) throw new Error(response.statusText || data.message || 'Hubo un error inesperado');
         
             return data;

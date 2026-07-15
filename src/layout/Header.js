@@ -1,5 +1,6 @@
 'use client';
 
+import Search from "@/components/Search/Search";
 import { config } from "@/config";
 import { useDB } from "@/context/DBContext";
 import { IconSearch } from "@tabler/icons-react";
@@ -12,6 +13,9 @@ export default function Header () {
     const pathname = usePathname();
     const { company } = useDB();
     const [ menu, setMenu ] = useState(false);
+    const [searchOpen, setSearchOpen] = useState(false);
+
+    const handleToogleSearch = () => setSearchOpen(!searchOpen)
 
     return (
         <>
@@ -34,7 +38,7 @@ export default function Header () {
                         </ul>
                     </nav>
                     <ul className="flex items-center gap-4">
-                        <button className="size rounded-full center bg-n1" style={{"--size": "40px"}}><IconSearch/></button>
+                        <button className="size rounded-full center bg-n1" style={{"--size": "40px"}} onClick={handleToogleSearch}><IconSearch/></button>
                         <button className="w-full h rounded-full center bg-n1 ph-4 lg:none" style={{"--h": "40px"}} onClick={() => setMenu(!menu)}>{menu ? 'Cerrar' : 'Menú'}</button>
                     </ul>
                 </div>
@@ -51,6 +55,8 @@ export default function Header () {
                     </li>
                 </ul>
             </nav>
+            {searchOpen && ( <Search onClose={handleToogleSearch}/> )}
+            
         </>
     )
 }

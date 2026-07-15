@@ -38,6 +38,7 @@ ul, li, ol {
 
 button {
     cursor: pointer;
+    background: none;
 }
 
 img {

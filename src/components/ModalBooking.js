@@ -4,6 +4,8 @@ import { useDB } from "@/context/DBContext";
 import { IconX } from "@tabler/icons-react";
 import Image from "next/image";
 import StepOne from "./ProcessPay/StepOne";
+import StepTwo from "./ProcessPay/StepTwo";
+import StepThree from "./ProcessPay/StepThree";
 
 export default function ModalBooking ({ book }) {
 
@@ -50,6 +52,8 @@ export default function ModalBooking ({ book }) {
                             </div>
                         </div>
                         {step === 1 && ( <StepOne/> )}
+                        {step === 2 && ( <StepTwo/> )}
+                        {step === 3 && ( <StepThree/> )}
                     </div>
                 </div>
             </div>

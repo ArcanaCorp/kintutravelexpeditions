@@ -6,6 +6,8 @@ import { Toaster } from "sonner";
 import { DBProvider } from "@/context/DBContext";
 import Header from "@/layout/Header";
 import Footer from "@/layout/Footer";
+import FloatButton from "@/components/FloatButton";
+import Script from "next/script";
 
 const raleway = Raleway({
     variable: "--font-base",
@@ -164,6 +166,9 @@ export default function RootLayout ({ children }) {
 
     return (
         <html lang="es" className={`${raleway.variable}`}>
+            <head>
+                <link rel="stylesheet" href="https://static.micuentaweb.pe/static/js/krypton-client/V4.0/ext/classic-reset.css"/>
+            </head>
             <body className="relative w-screen">
                 <script
                     type="application/ld+json"
@@ -244,8 +249,10 @@ export default function RootLayout ({ children }) {
                     <Header/>
                     {children}
                     <Footer/>
+                    <FloatButton/>
                 </DBProvider>
                 <Toaster position="top-center" duration={5000} closeButton />
+                <Script id="krypton-client" src="https://static.micuentaweb.pe/static/js/krypton-client/V4.0/ext/classic.js" strategy="beforeInteractive"/>
             </body>
         </html>
     )

@@ -23,7 +23,7 @@ export const useBooking = () => {
 
     const initBooking = (bk) => setBook(prev => ({
         ...prev,
-        experience_id: bk.experience_id,
+        experience_id: bk.experience_id || bk.id,
         experience_name: bk.experience_name,
         tour_name: bk.tour_name,
         total_price: bk.price_min,

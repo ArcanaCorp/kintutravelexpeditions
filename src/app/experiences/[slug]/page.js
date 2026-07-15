@@ -27,6 +27,7 @@ export default function Page () {
     const image = useMemo(() => data?.experience_images.find(img => img.is_cover), [tours])
 
     const handleInitBooking = () => {
+        console.log(data);
         const payload = {...data, cover: image.image_url}
         initBook(payload)
     }
